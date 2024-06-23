@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
+    <meta charset="UTF-8">
+    <title>个人工作台</title>
+
+    <!-- 左侧导航栏样式 -->
+    <style>
+        .left_region {
+            width: 15%;
+            position: fixed;
+        }
+
+        .left_region ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .left_region ul li a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .left_region ul li a:hover {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        .left_region ul li a.active {
+            background-color: #007BFF;
+            color: #fff;
+        }
+    </style>
+
+    <!-- 右侧内容样式 -->
+    <style>
+        .right_region {
+            width: 85%;
+            margin-left: 15%;
+            top: 0;
+            left: 0;
+            min-height: 100vh;
+            background-color: #ffffff;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            border-right: 1px solid #e7e7e7;
+
+        }
+
+        .right_region > div {
+            padding-top: 30px;
+        }
+
+        .right_region > div:first-child {
+            padding-top: 0;
+        }
+    </style>
+
+    <!-- 卡片样式 -->
+    <style>
+        /* Card container styles */
+        .card {
+            width: 23%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            margin: 1%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Card hover effect */
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Card header styles */
+        .card-header {
+            display: flex;
+            align-items: center;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            text-align: left;
+            font-size: 1.5em;
+        }
+
+        /* Card content styles */
+        .card-content {
+            padding: 8px 10px;
+            text-align: justify;
+        }
+
+        /* Card footer styles */
+        .card-footer {
+            display: flex;
+            align-items: center;
+            background-color: #f2f2f2;
+            padding: 8px 10px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            min-height: 19px;
+        }
+
+        .card-footer > a {
+            padding-left: 5px;
+            padding-right: 5px;
+            box-sizing: border-box;
+        }
+
+        .card-footer > a:first-child {
+            padding-left: 0;
+            border-left: none;
+        }
+    </style>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            background-image: url(./assets/website_bg.png);
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .main {
+            width: 100%;
+            display: flex;
+        }
+
+        .content {
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .content_title {
+            background: linear-gradient(to right, #c300ff, #efa5fd);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+        }
+
+        .content_title > div {
+            padding-left: 10px;
+            font-size: 2em;
+        }
+
+        .content_body {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            padding-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <div><h1>Welcome to My Personal Website</h1></div>
+    <div><p>This is a simple static website hosted on <a href="https://github.com/lzb-libra/workbench" style="color: white">GitHub</a> Pages.</p></div>
+</div>
+<div class="main">
+    <div class="left_region">
+        <ul>
+            <li>
+                <a href="#frame">前端框架</a>
+                <!-- https://baijiahao.baidu.com/s?id=1728185890869092949&wfr=spider&for=pc -->
+            </li>
+            <li>
+                <a href="#ui-assembly">UI组件</a>
+            </li>
+            <li>
+                <a href="#language">后端语言</a>
+            </li>
+            <li>
+                <a href="#language">开发框架</a>
+            </li>
+            <li>
+                <a href="#github">优质项目</a>
+            </li>
+            <li>
+                <a href="#application">精选应用</a>
+            </li>
+            <li>
+                <a href="#website">精选网址</a>
+            </li>
+        </ul>
+    </div>
+    <div class="right_region">
+
+        <!-- Vue -->
+        <div id="frame" class="content">
+            <div class="content_title">
+                <img src="assets/frame.png" style="width: 35px; height: 35px;" alt="">
+                <div>前端框架</div>
+            </div>
+            <div class="content_body">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="assets/vue.png" style="width: 25px; height: 25px" alt="">
+                        <div style="padding-left: 8px">Vue 2</div>
+                    </div>
+                    <div class="card-content" onclick="handleClick('https://v2.cn.vuejs.org/v2/guide/')">
+                        <p>Vue.js（读音 /vjuː/, 类似于 view） 是一套构建用户界面的渐进式框架。Vue 只关注视图层， 采用自底向上增量开发的设计。Vue 的目标是通过尽可能简单的 API
+                            实现响应的数据绑定和组合的视图组件。</p>
+                        <p style="color: red">Vue 2.0 在 2023 年 12 月 31 日停止更新。</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://www.runoob.com/vue2/vue-tutorial.html" target="_blank">
+                            <img src="./assets/rookie_tutorial.png" alt="" style="width: 20px; height: 20px;">
+                        </a>
+                        <a href="https://www.w3cschool.cn/vuejs2/" target="_blank">
+                            <img src="assets/w3c_school.png" alt="" style="width: 20px; height: 20px;">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="assets/vue.png" style="width: 30px; height: 30px" alt="">
+                        <div style="padding-left: 8px">Vue 3</div>
+                    </div>
+                    <div class="card-content" onclick="handleClick('https://cn.vuejs.org/guide/introduction')">
+                        <p>Vue.js（读音 /vjuː/, 类似于 view） 是一套构建用户界面的渐进式框架。Vue 只关注视图层， 采用自底向上增量开发的设计。Vue 的目标是通过尽可能简单的 API
+                            实现响应的数据绑定和组合的视图组件。</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://www.runoob.com/vue3/vue3-tutorial.html" target="_blank">
+                            <img src="./assets/rookie_tutorial.png" alt="" style="width: 20px; height: 20px;">
+                        </a>
+                        <a href="https://www.w3cschool.cn/vuejs3/" target="_blank">
+                            <img src="assets/w3c_school.png" alt="" style="width: 20px; height: 20px;">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 优质项目 -->
+        <div id="github" class="content">
+            <div class="content_title">
+                <img src="https://github.githubassets.com/favicons/favicon-dark.png" style="width: 28px; height: 28px;" alt="">
+                <div style="padding-left: 10px">优质项目</div>
+            </div>
+            <div class="content_body">
+                <div class="card">
+                    <div class="card-header">
+                        <div style="padding-left: 8px">敬请期待</div>
+                    </div>
+                    <div class="card-content" onclick="handleClick('https://musicfree.upup.fun/')">
+                        <p>敬请期待......</p>
+                    </div>
+                    <div class="card-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 精选应用 -->
+        <div id="application" class="content">
+            <div class="content_title">
+                <div style="margin-bottom: 0;">精选应用</div>
+            </div>
+            <div class="content_body">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://musicfree.upup.fun/favicon.ico" style="width: 25px; height: 25px" alt="Vue logo">
+                        <div style="padding-left: 8px">MusicFree</div>
+                    </div>
+                    <div class="card-content" onclick="handleClick('https://musicfree.upup.fun/')">
+                        <p>一个插件化、定制化、无广告的免费音乐播放器，目前只支持 Android、Harmony OS、Windows、Linux 和 Mac。</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/maotoumao/MusicFree" target="_blank">
+                            <img src="./assets/github.png" alt="" style="width: 20px; height: 20px;">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://github.githubassets.com/favicons/favicon-dark.png" style="width: 25px; height: 25px" alt="Vue logo">
+                        <div style="padding-left: 8px">Listen 1</div>
+                    </div>
+                    <div class="card-content" onclick="handleClick('https://listen1.github.io/listen1/')">
+                        <p>Listen 1是一款可以搜索和播放来自网易云音乐，QQ音乐，酷狗音乐，酷我音乐，Bilibili，咪咕音乐网站的歌曲，让你的曲库更全面。</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/listen1" target="_blank">
+                            <img src="./assets/github.png" alt="" style="width: 20px; height: 20px;">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://globalpotplayer.cn/favicon.ico" style="width: 25px; height: 25px" alt="Vue logo">
+                        <div style="padding-left: 8px">PotPlayer</div>
+                    </div>
+                    <div class="card-content" onclick="handleClick('https://globalpotplayer.com/')">
+                        <p>PotPlayer 是 KMPlayer 的原制作者姜龙喜进入 Daum 公司后的新一代网络播放器。PotPlayer 的优势在于强大的内置解码器；而 KMPlayer
+                            的优势在于强大的定制能力和个性化功能。</p>
+                    </div>
+                    <div class="card-footer"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://tinytask.net/favicon.ico" style="width: 25px; height: 25px" alt="Vue logo">
+                        <div style="padding-left: 8px">TinyTask</div>
+                    </div>
+                    <div class="card-content" onclick="handleClick('https://tinytask.net/')">
+                        <p>TinyTask 是一款极简主义的 PC 自动化应用程序，可用于记录和重复操作。顾名思义，它小得令人难以置信（只有 36KB！）、超紧凑和 100% 便携。无需编写脚本 -
+                            只需按录制，然后播放即可！</p>
+                    </div>
+                    <div class="card-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 精选网址 -->
+        <div id="website" class="content">
+            <div class="content_title">
+                <div style="margin-bottom: 0;">精选网址</div>
+            </div>
+
+            <div style="display: flex; width: 100%; flex-wrap: wrap; padding-top: 10px;">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://bzxqw.top//wp-content/uploads/2024/03/2024030919225699.png" style="width: 25px; height: 25px" alt="Vue logo">
+                        <div style="padding-left: 8px">宝藏星球屋</div>
+                    </div>
+                    <div class="card-content" onclick="handleClick('https://bzxqw.top/')">
+                        <p>集网络众多资源于一体的免费宝藏网站</p>
+                    </div>
+                    <div class="card-footer"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./assets/website.png" style="width: 25px; height: 25px" alt="Vue logo">
+                        <div style="padding-left: 8px">知识·树洞</div>
+                    </div>
+                    <div class="card-content" onclick="handleClick('https://link3.cc/quruanpu')">
+                        <p>集网络众多资源于一体的免费宝藏网站</p>
+                    </div>
+                    <div class="card-footer"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./assets/linux.png" style="width: 25px; height: 25px" alt="Vue logo">
+                        <div style="padding-left: 8px">Linux命令手册</div>
+                    </div>
+                    <div class="card-content">
+                        <p>Linux常用命令查询网站</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="http://linux.51yip.com/" target="_blank" title="Linux命令手册">
+                            <img src="./assets/manual_1.png" alt="" style="width: 20px; height: 20px;">
+                        </a>
+                        <a href="https://linux.cmsblogs.cn/" target="_blank" title="Linux命令搜索引擎">
+                            <img src="./assets/manual_2.png" alt="" style="width: 20px; height: 20px;">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://css.bqrdh.com/favicon.ico" style="width: 25px; height: 25px" alt="Vue logo">
+                        <div style="padding-left: 8px">CSS可视化</div>
+                    </div>
+                    <div class="card-content" onclick="handleClick('https://css.bqrdh.com/box-style-editor')">
+                        <p>提供了CSS边框、文字、图片、背景等常见的生成器，CSS动画效果，CSS色彩，字体预览等常用工具</p>
+                    </div>
+                    <div class="card-footer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const handleClick = url => window.open(url, "_blank");
+</script>
+</body>
+</html>
