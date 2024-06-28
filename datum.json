@@ -1,0 +1,1008 @@
+{
+    "navigationBar": [
+        {
+            "id": "0",
+            "href": "front-end",
+            "name": "前端"
+        },
+        {
+            "id": "1",
+            "href": "back-end",
+            "name": "后端"
+        },
+        {
+            "id": "2",
+            "href": "dev-ops",
+            "name": "运维"
+        },
+        {
+            "id": "3",
+            "href": "resources",
+            "name": "资源"
+        }
+    ],
+    "datum": [
+        {
+            "id": "0-0",
+            "title": "HTML 5",
+            "icon": "./assets/html.svg",
+            "website": "https://developer.mozilla.org/zh-CN/docs/Web/HTML",
+            "description": "HTML（HyperText Markup Language，超文本标记语言）是一种用于创建网页和网页应用的标准标记语言。它由各种标签组成，这些标签定义了网页的结构和内容。",
+            "links":
+            [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/html/html5-intro.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3school.com.cn/html/html5_intro.asp"
+                }
+            ]
+        },
+        {
+            "id": "0-0",
+            "title": "HTML5+ API",
+            "icon": "./assets/html_plus.svg",
+            "website": "https://www.html5plus.org/doc/h5p.html",
+            "description": "HTML5+ API 是一种基于HTML5的增强型Web应用开发技术，主要应用于移动设备。它结合了HTML5、CSS3和JavaScript，并提供了一些额外的API，使得开发者能够创建接近原生应用体验的Web应用。",
+            "links":
+            []
+        },
+        {
+            "id": "0-0",
+            "title": "CSS 3",
+            "icon": "./assets/css.svg",
+            "website": "https://developer.mozilla.org/zh-CN/docs/Web/CSS",
+            "description": "CSS（Cascading Style Sheets，层叠样式表）是一种用于控制网页样式和布局的语言。CSS3是CSS的最新标准，它引入了许多新特性，包括响应式设计、动画、3D变换、媒体查询等。",
+            "links":
+            [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/css/css-tutorial.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3school.com.cn/css/index.asp"
+                }
+            ]
+        },
+        {
+            "id": "0-0",
+            "title": "JavaScript",
+            "icon": "./assets/javaScript.svg",
+            "website": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
+            "description": "JavaScript是一种高级的、解释型的编程语言。它是Web开发中不可或缺的一部分，用于创建交互式的网页，提供动态功能。",
+            "links":
+            [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/js/js-tutorial.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3school.com.cn/js/index.asp"
+                }
+            ]
+        },
+        {
+            "id": "0-0",
+            "title": "TypeScript",
+            "icon": "./assets/typescript.svg",
+            "website": "https://www.tslang.cn/index.html",
+            "description": "TypeScript是由微软开发的一个开源编程语言，它是JavaScript的一个超集，意味着任何有效的JavaScript代码也是有效的TypeScript代码。TypeScript的主要特点是引入了类型系统，这使得开发者可以在编译时进行类型检查，从而更容易地发现错误。",
+            "links":
+            [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/typescript/ts-tutorial.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/typescript/"
+                }
+            ]
+        },
+        {
+            "id": "0-1",
+            "title": "React",
+            "icon": "./assets/react.svg",
+            "website": "https://zh-hans.react.dev/",
+            "description": "React是一个用于构建用户界面的开源JavaScript库，由Facebook维护。它被设计为可声明、高效且灵活，非常适合构建复杂的单页应用程序（SPA）。React使用虚拟DOM来提高性能，并且通过组件化的方式使得代码更加模块化和可重用。",
+            "links":
+            [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/react/react-tutorial.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/react/"
+                }
+            ]
+        },
+        {
+            "id": "0-1",
+            "title": "Vue 2",
+            "icon": "./assets/vue.svg",
+            "website": "https://v2.cn.vuejs.org/v2/guide/",
+            "description": "Vue.js 2（简称Vue 2）是一个流行的前端JavaScript框架，用于构建交互式的Web应用程序。",
+            "links":
+            [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/vue2/vue-tutorial.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/vuejs2/"
+                }
+            ]
+        },
+        {
+            "id": "0-1",
+            "title": "Vue 3",
+            "icon": "./assets/vue.svg",
+            "website": "https://cn.vuejs.org/",
+            "description": "Vue 3是Vue.js框架的最新主要版本，它带来了许多新特性、改进和性能优化。",
+            "links":
+            [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/vue3/vue3-tutorial.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/vuejs3/"
+                }
+            ]
+        },
+        {
+            "id": "0-1",
+            "title": "Angular",
+            "icon": "./assets/angular.svg",
+            "website": "https://www.angular.cn/",
+            "description": "Angular 是一个由 Google 维护的开源前端Web应用框架，用于构建单页客户端应用程序（SPA）。它是MVC（Model-View-Controller）架构模式的实现，并且随着时间的推移，已经发展到了多个版本。目前，Angular有两个主要的版本线：AngularJS（也称为Angular 1.x）和Angular（通常指Angular 2+，包括Angular 4, 5, 6, ...等，因为从版本4开始，Angular采用了基于半年的发布周期）。",
+            "links":
+            [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/angularjs2/angularjs2-tutorial.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/angular2/"
+                }
+            ]
+        },
+        {
+            "id": "0-1",
+            "title": "Svelte",
+            "icon": "./assets/svelte.svg",
+            "website": "https://svelte.dev/",
+            "description": "Svelte是一个现代前端框架，它允许开发者编写Web应用程序，并且与React和Vue等其他流行的前端框架相比，它具有一些独特的特点。Svelte的核心理念是将应用程序编译成高效的JavaScript，而不是在浏览器中进行虚拟DOM的比较和DOM操作，从而提高性能。",
+            "links":
+            [
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/yzwdb/"
+                }
+            ]
+        },
+        {
+            "id": "0-1",
+            "title": "Hippy",
+            "icon": "https://hippyjs.org/_media/hippy-logo.png",
+            "website": "https://hippyjs.org/",
+            "description": "Hippy 是一个高性能的跨平台开发框架，它允许开发者使用JavaScript、HTML和CSS来开发移动应用和小程序。",
+            "links":
+            []
+        },
+        {
+            "id": "0-1",
+            "title": "uni-app",
+            "icon": "./assets/uni-app.png",
+            "website": "https://uniapp.dcloud.net.cn/",
+            "description": "uni-app是一个使用Vue.js开发跨平台应用的框架，由DCloud公司开发。它允许开发者编写一次代码，然后发布到不同的平台，包括iOS、Android、Web（包括PC和移动端浏览器）、以及各种小程序平台，如微信小程序、支付宝小程序等。",
+            "links":
+            [
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/uni_app/"
+                }
+            ]
+        },
+        {
+            "id": "0-1",
+            "title": "React Native",
+            "icon": "./assets/react.svg",
+            "website": "https://reactnative.cn/",
+            "description": "React Native是一个流行的开源框架，由Facebook开发，用于构建原生移动应用程序。它允许开发者使用JavaScript和React，以及一些原生平台能力，来创建iOS和Android应用，部分功能可能支持Web平台。",
+            "links":
+            [
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/reactnativezwwd/"
+                }
+            ]
+        },
+        {
+            "id": "0-1",
+            "title": "Electron",
+            "icon": "./assets/electron.svg",
+            "website": "https://www.electronjs.org/zh/",
+            "description": "Electron是一个使用JavaScript, HTML 和 CSS 构建跨平台桌面应用程序的框架。它允许Web开发者利用他们现有的Web技术知识来创建桌面软件。Electron应用可以运行在Windows、macOS和Linux操作系统上。",
+            "links":
+            [
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/electronmanual/"
+                }
+            ]
+        },
+        {
+            "id": "0-1",
+            "title": "Tauri",
+            "icon": "./assets/tauri.svg",
+            "website": "https://tauri.app/",
+            "description": "Tauri 是一个用于构建轻量级、高性能的桌面应用程序的框架，它允许开发者使用前端技术（如HTML、CSS和JavaScript）结合 Rust 语言的后端能力。Tauri 的设计理念是提供一个安全、易于使用和高度可定制的框架，同时保持应用的小巧和快速。Tauri应用可以运行在Windows、macOS和Linux操作系统上。",
+            "links":
+            [
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/tauri/"
+                }
+            ]
+        },
+        {
+            "id": "0-1",
+            "title": "Flutter",
+            "icon": "./assets/flutter.svg",
+            "website": "https://flutter.cn/",
+            "description": "Flutter是一个由Google开发的开源移动UI框架，用于在iOS和Android平台上构建高质量的原生界面。Flutter使用Dart语言作为开发语言，并提供了丰富的组件和API来创建流畅、高性能的移动应用。Flutter应用可以运行在iOS、Android上，同时也支持Web、Windows、macOS、嵌入式设备和Linux桌面应用。",
+            "links":
+            [
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/evilg/"
+                }
+            ]
+        },
+        {
+            "id": "0-2",
+            "title": "Vuex",
+            "icon": "./assets/vue.svg",
+            "website": "https://vuex.vuejs.org/zh/",
+            "description": "Vuex是一个专为Vue.js应用程序开发的状态管理模式和库。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。",
+            "links":
+            [
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/evilg/"
+                }
+            ]
+        },
+        {
+            "id": "0-2",
+            "title": "Pinia",
+            "icon": "https://pinia.vuejs.org/logo.png",
+            "website": "https://pinia.vuejs.org/zh/",
+            "description": "Pinia 是一个用于Vue.js应用程序的存储库解决方案，旨在作为Vue 3的官方存储库（替代Vuex 4）。Pinia 由Eduardo San Martin Morote（也被称为Posva）创建，它提供了一种更简洁和更直观的方式来管理应用程序的状态。",
+            "links":
+            []
+        },
+        {
+            "id": "0-2",
+            "title": "Vue Router",
+            "icon": "./assets/vue.svg",
+            "website": "https://router.vuejs.org/zh/",
+            "description": "Vue Router是一个官方的路由管理器，用于构建Vue.js应用程序。它允许你为单页面应用程序创建页面导航，并且可以与Vue.js深度集成，实现视图的动态渲染。",
+            "links":
+            []
+        },
+        {
+            "id": "0-2",
+            "title": "Vite",
+            "icon": "./assets/vite.png",
+            "website": "https://cn.vitejs.dev/",
+            "description": "Vite是一个由Vue.js团队成员Evan You创建的前端构建工具，专为现代Web开发而设计。它利用了浏览器原生的ES模块导入（ESM）功能，提供了极快的开发服务器冷启动和即时模块热更新（HMR）能力。",
+            "links":
+            []
+        },
+        {
+            "id": "0-2",
+            "title": "React Redux",
+            "icon": "./assets/react_redux.png",
+            "website": "https://cn.redux.js.org/",
+            "description": "React Redux是Redux库与React库的结合使用，用于在React应用程序中实现状态管理。Redux是一个独立的状态容器，可以与任何JavaScript框架配合使用，但与React结合使用时，它提供了一种强大的方式来管理应用的状态。",
+            "links":
+            []
+        },
+        {
+            "id": "0-2",
+            "title": "React Recoil",
+            "icon": "./assets/recoil.png",
+            "website": "https://recoiljs.org/zh-hans/",
+            "description": "Recoil 是一个由Facebook开发的用于React应用程序的状态管理库。它旨在提供一种更灵活、更可扩展的方式来管理React组件的状态，特别是在构建大型和复杂的React应用时。",
+            "links":
+            []
+        },
+        {
+            "id": "0-2",
+            "title": "React Router",
+            "icon": "./assets/react-router.png",
+            "website": "https://reactrouter.com/en/main",
+            "description": "React Router是一个流行的开源库，用于在React应用程序中实现路由功能。它允许你通过不同的URL来渲染不同的React组件，从而构建单页面应用（SPA）。React Router提供了一套丰富的API，用于定义路由规则、导航以及参数解析等。",
+            "links":
+            []
+        },
+        {
+            "id": "0-2",
+            "title": "Webpack",
+            "icon": "./assets/webpack.png",
+            "website": "https://www.webpackjs.com/",
+            "description": "Webpack是一个开源的前端资源模块化打包器（module bundler），它能够将项目中的所有依赖项（JavaScript、图片、CSS等）打包成一个或多个bundle。Webpack在现代前端开发中非常流行，因为它提供了强大的灵活性和扩展性，并且能够优化前端资源的加载效率。",
+            "links":
+            []
+        },
+        {
+            "id": "0-2",
+            "title": "Less",
+            "icon": "https://less.bootcss.com/public/img/less_logo.png",
+            "website": "https://less.bootcss.com/",
+            "description": "LESS是一种动态样式语言，它扩展了CSS的功能。LESS允许使用变量、嵌套规则、混合（mixins）、函数等特性，使得编写CSS更加高效和有组织。这些特性提供了编程语言的构造，让CSS的编写更加灵活和强大。",
+            "links":
+            []
+        },
+        {
+            "id": "0-2",
+            "title": "Sass",
+            "icon": "https://www.sass.hk/favicon.ico",
+            "website": "https://www.sass.hk/",
+            "description": "Sass是一种预处理器语言，用于CSS扩展，它增加了变量、嵌套规则、混合（mixins）、函数等特性，使得编写CSS更加高效和有组织。Sass文件通常以`.scss`作为文件扩展名，并且需要编译成CSS以供浏览器使用。",
+            "links":
+            []
+        },
+        {
+            "id": "0-2",
+            "title": "UnoCSS",
+            "icon": "./assets/unocss.svg",
+            "website": "https://unocss.dev/",
+            "description": "UnoCSS是一个即时按需引用的原子化CSS引擎。它旨在提供灵活性和可扩展性，核心是中立的，不带有偏见，所有的CSS工具类都是通过预设提供的。UnoCSS的设计理念是快速、轻量，且零依赖，它专注于性能，宣称比Windi CSS或Tailwind CSS的即时模式(JIT)快5倍，且压缩后的体积大约只有6kb。",
+            "links":
+            []
+        },
+        {
+            "id": "0-2",
+            "title": "WebTracing",
+            "icon": "./assets/web-tracing.svg",
+            "website": "https://m-cheng-web.github.io/web-tracing/",
+            "description": "WebTracing 是一个为前端项目提供监控手段的跨平台插件，它能够进行埋点、行为、性能、异常、请求、资源、路由、曝光以及录屏等多种监控。",
+            "links":
+            []
+        },
+        {
+            "id": "0-3",
+            "title": "LayUI",
+            "icon": "./assets/layui.svg",
+            "website": "https://layui.dev/",
+            "description": "Layui是一套开源的Web UI框架，它基于经典的Modular前端框架模式，遵循原生HTML、CSS、JavaScript开发，不依赖于任何前端框架和类库。",
+            "links":
+            [
+                {
+                    "icon": "./assets/html.svg",
+                    "href": "https://layui.dev/docs/2/"
+                },
+                {
+                    "icon": "./assets/vue_3.png",
+                    "href": "http://www.layui-vue.com/zh-CN/guide/introduce"
+                }
+            ]
+        },
+        {
+            "id": "0-3",
+            "title": "Naive UI",
+            "icon": "./assets/naive-ui.svg",
+            "website": "https://www.naiveui.com/zh-CN/os-theme",
+            "description": "Naive UI 是一个基于 Vue 3 和 TypeScript 的开源组件库，旨在提供一组风格一致、功能丰富的 UI 组件，以帮助开发者构建高质量的 Vue 应用程序。",
+            "links":
+            [
+                {
+                    "icon": "./assets/vue_3.png",
+                    "href": "https://www.naiveui.com/zh-CN/os-theme/docs/installation"
+                }
+            ]
+        },
+        {
+            "id": "0-3",
+            "title": "Vant",
+            "icon": "./assets/vant.png",
+            "website": "https://www.naiveui.com/zh-CN/os-theme",
+            "description": "Vant 是一个轻量、可靠的移动端Vue组件库，由有赞团队维护。它提供了一系列预设计的UI组件，使得开发者能够快速构建Vue驱动的移动端应用。Vant特别注重移动端的体验，适合用于微信小程序、移动端网站以及其他移动应用的开发。",
+            "links":
+            [
+                {
+                    "icon": "./assets/vue_2.png",
+                    "href": "https://vant-ui.github.io/vant/v2/#/zh-CN/"
+                },
+                {
+                    "icon": "./assets/vue_3.png",
+                    "href": "https://vant-ui.github.io/vant/#/zh-CN"
+                },
+                {
+                    "icon": "./assets/react.svg",
+                    "href": "https://react-vant.3lang.dev/guide/about"
+                },
+                {
+                    "icon": "./assets/mini_program.svg",
+                    "href": "https://vant-ui.github.io/vant-weapp/#/home"
+                },
+                {
+                    "icon": "./assets/alipay.svg",
+                    "href": "https://ant-move.github.io/vant-ailapp-docs/#/intro"
+                }
+            ]
+        },
+        {
+            "id": "0-3",
+            "title": "Vuetify",
+            "icon": "./assets/vuetify.png",
+            "website": "https://vuetifyjs.com/zh-Hans/",
+            "description": "Vuetify是一个基于Vue.js的开源组件库，它遵循Google的Material Design设计语言。Vuetify提供了一套丰富的预制Vue组件，这些组件易于使用，并且可以轻松地集成到Vue.js应用程序中。",
+            "links":
+            [
+                {
+                    "icon": "./assets/vue_2.png",
+                    "href": "https://v2.vuetifyjs.com/zh-Hans/getting-started/installation/"
+                },
+                {
+                    "icon": "./assets/vue_3.png",
+                    "href": "https://vuetifyjs.com/zh-Hans/getting-started/installation/"
+                }
+            ]
+        },
+        {
+            "id": "0-3",
+            "title": "Quasar",
+            "icon": "./assets/quasar.svg",
+            "website": "https://quasar.dev/",
+            "description": "Quasar 是一个基于 Vue.js 的 UI 框架，它提供了丰富的组件库和工具，帮助开发者快速构建现代化的 Web 应用程序。",
+            "links":
+            [
+                {
+                    "icon": "./assets/vue_2.png",
+                    "href": "https://v1.quasar.dev/"
+                },
+                {
+                    "icon": "./assets/vue_3.png",
+                    "href": "https://quasar.dev/"
+                }
+            ]
+        },
+        {
+            "id": "0-3",
+            "title": "Quasar",
+            "icon": "./assets/quasar.svg",
+            "website": "https://quasar.dev/",
+            "description": "Quasar 是一个基于 Vue.js 的 UI 框架，它提供了丰富的组件库和工具，帮助开发者快速构建现代化的 Web 应用程序。",
+            "links":
+            [
+                {
+                    "icon": "./assets/vue_2.png",
+                    "href": "https://v1.quasar.dev/"
+                },
+                {
+                    "icon": "./assets/vue_3.png",
+                    "href": "https://quasar.dev/"
+                }
+            ]
+        },
+        {
+            "id": "0-3",
+            "title": "Easy UI",
+            "icon": "./assets/easy-ui.png",
+            "website": "http://www.jeasyui.com/index.php",
+            "description": "Easyui是基于jQuery、Angular.、Vue和React的用户界面组件的集合。easyui提供了构建现代交互式javascript应用程序的基本功能。使用easyui，您不需要编写许多javascript代码，通常通过编写一些HTML标记来定义用户界面。完整的HTML5网页框架。使用easyui开发你的产品时可以大量节省你的时间和规模。easyui使用非常简单但功能非常强大。",
+            "links":
+            [
+                {
+                    "icon": "./assets/web.svg",
+                    "href": "http://www.jeasyui.com/demo/main/index.php"
+                },
+                {
+                    "icon": "./assets/mobile.svg",
+                    "href": "http://www.jeasyui.com/demo-mobile/main/index.php"
+                },
+                {
+                    "icon": "./assets/angular.svg",
+                    "href": "http://www.jeasyui.com/demo-angular/main/index.php"
+                },
+                {
+                    "icon": "./assets/vue_2.png",
+                    "href": "https://www.jeasyui.com/demo-vue/main/index.php"
+                },
+                {
+                    "icon": "./assets/react.svg",
+                    "href": "https://www.jeasyui.com/demo-react/main/index.php"
+                }
+            ]
+        },
+        {
+            "id": "0-3",
+            "title": "Element UI",
+            "icon": "./assets/element-ui.svg",
+            "website": "https://zh-hans.react.dev/",
+            "description": "Element UI 是一个基于 Vue.js 的 UI 组件库，专注于提供丰富、易用和美观的用户界面组件。",
+            "links":
+            [
+                {
+                    "icon": "./assets/vue_2.png",
+                    "href": "https://element.eleme.cn/#/zh-CN/component/installation"
+                },
+                {
+                    "icon": "./assets/vue_3.png",
+                    "href": "https://element-plus.org/zh-CN/component/overview.html"
+                },
+                {
+                    "icon": "./assets/react.svg",
+                    "href": "https://elemefe.github.io/element-react/index#/zh-CN/quick-start"
+                },
+                {
+                    "icon": "./assets/angular.svg",
+                    "href": "https://element-angular.faas.ele.me/guide/install"
+                }
+            ]
+        },
+        {
+            "id": "0-3",
+            "title": "Prime Vue",
+            "icon": "https://primevue.org/favicon.ico",
+            "website": "https://primevue.org/",
+            "description": "PrimeVue 是一个基于 Vue.js 的 UI 组件库，它提供了丰富的开箱即用的 UI 组件，旨在帮助开发者构建现代化的 Web 应用程序。",
+            "links":
+            [
+                {
+                    "icon": "./assets/vue_2.png",
+                    "href": "https://www.primefaces.org/primevue-v2/#/"
+                },
+                {
+                    "icon": "./assets/vue_3.png",
+                    "href": "https://www.primefaces.org/primevue/"
+                },
+                {
+                    "icon": "./assets/react.svg",
+                    "href": "https://www.primefaces.org/primereact/"
+                },
+                {
+                    "icon": "./assets/angular.svg",
+                    "href": "https://www.primefaces.org/primeng/"
+                }
+            ]
+        },
+        {
+            "id": "0-3",
+            "title": "Ant Design",
+            "icon": "./assets/antd.svg",
+            "website": "https://ant-design.antgroup.com/index-cn",
+            "description": "Ant Design 是一个企业级 UI 设计语言和组件库，由蚂蚁金服设计和开发。它提供了一套丰富的高质量 UI 组件，适用于 Web 应用的开发。",
+            "links": [
+                {
+                    "icon": "./assets/vue_2.png",
+                    "href": "https://1x.antdv.com/docs/vue/introduce-cn/"
+                },
+                {
+                    "icon": "./assets/vue_3.png",
+                    "href": "https://www.antdv.com/components/overview-cn"
+                },
+                {
+                    "icon": "./assets/react.svg",
+                    "href": "https://ant-design.antgroup.com/components/overview-cn/"
+                },
+                {
+                    "icon": "./assets/angular.svg",
+                    "href": "https://ng.ant.design/docs/introduce/zh"
+                },
+                {
+                    "icon": "./assets/mobile.svg",
+                    "href": "https://rn.mobile.ant.design/docs/react/introduce-cn"
+                }
+            ]
+        },
+        {
+            "id": "0-4",
+            "title": "Font Awesome",
+            "icon": "./assets/font-awesome.svg",
+            "website": "https://fontawesome.com/",
+            "description": "Font Awesome 是互联网的图标库和工具包，被数百万设计师、开发人员和内容创建者使用。",
+            "links": []
+        },
+        {
+            "id": "0-4",
+            "title": "Material Icons",
+            "icon": "./assets/material_icons.svg",
+            "website": "https://fonts.google.com/icons",
+            "description": "Material icons 是一套互联网开放的图标集合,由 Google设计师团队“Google Material Design Team”开发,集成了多种常见的图标。",
+            "links": []
+        },
+        {
+            "id": "0-4",
+            "title": "Ant Design Icons",
+            "icon": "./assets/antd.svg",
+            "website": "https://ant.design/components/icon",
+            "description": "基于著名UI框架Ant Design的一套高质量SVG图标解决方案。",
+            "links": []
+        },
+        {
+            "id": "0-4",
+            "title": "iconify",
+            "icon": "./assets/iconify.svg",
+            "website": "https://icon-sets.iconify.design/?category=General",
+            "description": "超过 200,000 个开源矢量图标。",
+            "links": []
+        },
+        {
+            "id": "0-4",
+            "title": "YesIcon",
+            "icon": "https://yesicon.app/favicon.svg",
+            "website": "https://yesicon.app/",
+            "description": "大量高品质矢量图标来自全球顶尖设计团队。",
+            "links": []
+        },
+        {
+            "id": "0-4",
+            "title": "IconFont",
+            "icon": "./assets/iconfont.svg",
+            "website": "https://www.iconfont.cn/",
+            "description": "大量高品质矢量图标来自全球顶尖设计团队。",
+            "links": []
+        },
+        {
+            "id": "0-4",
+            "title": "IconFinder",
+            "icon": "./assets/iconfinder.svg",
+            "website": "https://www.iconfinder.com/",
+            "description": "为您的设计项目提供数以百万计的图形。由独立设计师创作。",
+            "links": []
+        },
+        {
+            "id": "0-4",
+            "title": "Feather Icons",
+            "icon": "./assets/feather.svg",
+            "website": "https://feathericons.com/",
+            "description": "Feather Icons 提供了一组简洁、线性的图标，设计上遵循简洁和一致性原则。",
+            "links": []
+        },
+        {
+            "id": "0-4",
+            "title": "XIcons",
+            "icon": "./assets/xicons.svg",
+            "website": "https://www.xicons.org/#/",
+            "description": "提供了多种图标库的 Vue 和 React 组件封装，可以方便地在 Vue 和 React 项目中使用。这些图标库包括 Ant Design Icons、Material Icons、Feather Icons 等。",
+            "links": []
+        },
+        {
+            "id": "0-4",
+            "title": "hugeicons",
+            "icon": "./assets/huge-icons.svg",
+            "website": "https://hugeicons.com/",
+            "description": "精心制作的顶级图标库，专为设计师和开发人员打造。",
+            "links": []
+        },
+        {
+            "id": "1-0",
+            "title": "C",
+            "icon": "./assets/c_language_1.png",
+            "website": "https://en.wikipedia.org/wiki/C_(programming_language)",
+            "description": "用于系统编程、嵌入式系统、操作系统开发等。特点是高效、性能优越、控制底层硬件。",
+            "links": [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/cprogramming/c-tutorial.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/c/"
+                },
+                {
+                    "icon": "./assets/bilibili.png",
+                    "href": "https://www.bilibili.com/video/BV1dr4y1n7vA/?spm_id_from=333.337.search-card.all.click"
+                }
+            ]
+        },
+        {
+            "id": "1-0",
+            "title": "C++",
+            "icon": "./assets/c_language_2.png",
+            "website": "https://isocpp.org/",
+            "description": "用于系统编程、游戏开发、图形应用等。特点是支持面向对象编程、泛型编程和低级内存",
+            "links": []
+        },
+        {
+            "id": "1-0",
+            "title": "C#",
+            "icon": "./assets/c_language_3.png",
+            "website": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+            "description": "用于Windows应用、Web应用（ASP.NET）、游戏开发（Unity）。特点是面向对象、现代语言设计、与.NET平台紧密集成。",
+            "links": []
+        },
+        {
+            "id": "1-0",
+            "title": "Java",
+            "icon": "./assets/java.svg",
+            "website": "https://www.oracle.com/cn/java/",
+            "description": "用于企业级应用、移动应用（Android）、Web 应用等。特点是跨平台性（JVM）、面向对象、丰富的库和框架。",
+            "links": []
+        },
+        {
+            "id": "1-0",
+            "title": "Python",
+            "icon": "./assets/python.svg",
+            "website": "https://www.python.org/",
+            "description": "用于Web开发、数据科学、人工智能、自动化脚本等。特点是语法简洁、易读易写、丰富的库、多范式支持。",
+            "links": []
+        },
+        {
+            "id": "1-0",
+            "title": "Golang",
+            "icon": "./assets/golang.svg",
+            "website": "https://go.dev/",
+            "description": "用于系统编程、服务器端开发、分布式系统、网络编程。特点是简洁、高效、并发支持强、编译速度快、垃圾回收。",
+            "links": []
+        },
+        {
+            "id": "1-0",
+            "title": "Ruby",
+            "icon": "./assets/ruby.svg",
+            "website": "https://www.ruby-lang.org/zh_cn/",
+            "description": "用于Web开发。特点是简洁优雅、面向对象、动态类型、广泛用于快速开发Web应用（如Ruby on Rails）。",
+            "links": []
+        },
+        {
+            "id": "1-0",
+            "title": "Swift",
+            "icon": "./assets/swift.png",
+            "website": "https://www.swift.org/",
+            "description": "用于iOS和macOS应用开发。特点是现代、强类型、安全性高、与苹果生态系统紧密集成。",
+            "links": []
+        },
+        {
+            "id": "1-0",
+            "title": "Kotlin",
+            "icon": "./assets/kotlin.svg",
+            "website": "https://kotlinlang.org/",
+            "description": "用于跨平台移动应用开发（主要与Flutter框架一起使用）、Web开发。特点是快速开发、即时编译、强类型。",
+            "links": []
+        },
+        {
+            "id": "1-0",
+            "title": "Rust",
+            "icon": "./assets/rust.png",
+            "website": "https://www.rust-lang.org/",
+            "description": "用于系统编程、嵌入式系统、WebAssembly。特点是内存安全、并发支持、性能高、无垃圾回收。",
+            "links": []
+        },
+        {
+            "id": "1-0",
+            "title": "Node.js",
+            "icon": "./assets/node.svg",
+            "website": "https://nodejs.org/zh-cn",
+            "description": "Node.js 具有非阻塞I/O、事件驱动架构，适用于实时应用和高并发处理。",
+            "links": []
+        },
+        {
+            "id": "2-0",
+            "title": "Linux",
+            "icon": "./assets/linux.svg",
+            "website": "",
+            "description": "常用Linux命令指南。",
+            "links": [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/linux/linux-tutorial.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/linux/"
+                },
+                {
+                    "icon": "./assets/bilibili.svg",
+                    "href": "https://www.bilibili.com/video/BV1Sv411r7vd/?spm_id_from=333.337.search-card.all.click"
+                },
+                {
+                    "icon": "./assets/document_1.svg",
+                    "href": "http://linux.51yip.com/"
+                },
+                {
+                    "icon": "assets/document_2.svg",
+                    "href": "https://linux.cmsblogs.cn/"
+                }
+            ]
+        },
+        {
+            "id": "2-0",
+            "title": "Docker",
+            "icon": "./assets/docker.svg",
+            "website": "https://www.docker.com/",
+            "description": "Docker 是一个开源的平台即服务（PaaS），用于开发、交付和运行应用程序。它基于容器化技术，能够让开发者和系统管理员在容器中打包应用程序及其所有依赖项，以确保应用程序可以在任何环境中快速部署和运行。",
+            "links": [
+                {
+                    "icon": "./assets/rookie_tutorial.png",
+                    "href": "https://www.runoob.com/docker/docker-tutorial.html"
+                },
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/docker/"
+                }
+            ]
+        },
+        {
+            "id": "2-0",
+            "title": "Kubernetes",
+            "icon": "./assets/kubernetes.svg",
+            "website": "https://kubernetes.io/zh-cn/",
+            "description": "Kubernetes（通常简称为 k8s）是一个开源的容器编排引擎，用于自动化部署、扩展和管理容器化应用程序。",
+            "links": [
+                {
+                    "icon": "./assets/w3c_school.png",
+                    "href": "https://www.w3cschool.cn/kubernetes/"
+                }
+            ]
+        },
+        {
+            "id": "2-0",
+            "title": "Prometheus",
+            "icon": "./assets/prometheus.svg",
+            "website": "https://prometheus.io/",
+            "description": "Prometheus 是一个开源的监控和警报工具包，专为高度动态的分布式系统设计。",
+            "links": []
+        },
+        {
+            "id": "2-0",
+            "title": "Grafana",
+            "icon": "./assets/grafana.svg",
+            "website": "https://grafana.com/",
+            "description": "Grafana 是一个开源的数据可视化和监控平台，用于分析和监控应用程序、服务器和网络。它支持多种数据源，包括 Prometheus、Elasticsearch、Graphite 等，可以创建和分享动态仪表板，帮助用户实时了解系统的运行情况。",
+            "links": []
+        },
+        {
+            "id": "2-0",
+            "title": "Jenkins",
+            "icon": "./assets/jenkins.svg",
+            "website": "https://www.jenkins.io/",
+            "description": "Jenkins 是一个开源的持续集成（CI）和持续部署（CD）工具，用于自动化构建、测试和部署软件项目。它支持插件扩展和多种集成方式，能够帮助开发团队提高生产效率和代码质量。",
+            "links": []
+        },
+        {
+            "id": "3-0",
+            "title": "MusicFree",
+            "icon": "https://musicfree.upup.fun/favicon.ico",
+            "website": "https://musicfree.upup.fun/",
+            "description": "HTML的全称为超文本标记语言，是一种标记语言。",
+            "links": [
+                {
+                    "icon": "./assets/android.svg",
+                    "href": "https://github.com/maotoumao/MusicFree/releases"
+                },
+                {
+                    "icon": "./assets/window.png",
+                    "href": "https://github.com/maotoumao/MusicFreeDesktop/releases"
+                },
+                {
+                    "icon": "./assets/mac.png",
+                    "href": "https://github.com/maotoumao/MusicFreeDesktop/releases"
+                },
+                {
+                    "icon": "./assets/linux.svg",
+                    "href": "https://github.com/maotoumao/MusicFreeDesktop/releases"
+                }
+            ]
+        },
+        {
+            "id": "3-0",
+            "title": "Listen1",
+            "icon": "./favicon.png",
+            "website": "https://listen1.github.io/listen1/",
+            "description": "Listen 1可以搜索和播放来自网易云音乐，QQ音乐，酷狗音乐，酷我音乐，Bilibili，咪咕音乐网站的歌曲，让你的曲库更全面。",
+            "links": [
+                {
+                    "icon": "./assets/android.svg",
+                    "href": "https://github.com/listen1/listen1_mobile/releases"
+                },
+                {
+                    "icon": "./assets/window.png",
+                    "href": "https://github.com/listen1/listen1_desktop/releases"
+                },
+                {
+                    "icon": "./assets/mac.png",
+                    "href": "https://github.com/listen1/listen1_desktop/releases"
+                },
+                {
+                    "icon": "./assets/linux.svg",
+                    "href": "https://github.com/listen1/listen1_desktop/releases"
+                }
+            ]
+        },
+        {
+            "id": "3-0",
+            "title": "PotPlayer",
+            "icon": "https://globalpotplayer.cn/favicon.ico",
+            "website": "https://globalpotplayer.com/",
+            "description": "全能视频播放器。",
+            "links": [
+                {
+                    "icon": "./assets/window.png",
+                    "href": "https://globalpotplayer.com/"
+                }
+            ]
+        },
+        {
+            "id": "3-0",
+            "title": "TinyTask",
+            "icon": "./assets/tinytask.png",
+            "website": "https://tinytask.net/",
+            "description": "一款极简主义的 PC 自动化应用程序，可用于记录和重复操作。",
+            "links": [
+                {
+                    "icon": "./assets/window.png",
+                    "href": "https://tinytask.net/download.html"
+                }
+            ]
+        },
+        {
+            "id": "3-1",
+            "title": "MDN Web Docs",
+            "icon": "https://developer.mozilla.org/favicon-192x192.png",
+            "website": "https://developer.mozilla.org/zh-CN/",
+            "description": "一个开放的、由Mozilla维护的Web开发者资源库。",
+            "links": []
+        },
+        {
+            "id": "3-1",
+            "title": "CSS Inspiration",
+            "icon": "https://csscoco.com/inspiration/images/logo2.png",
+            "website": "https://csscoco.com/inspiration/#/",
+            "description": "这里可以让你寻找到使用或者是学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。",
+            "links": []
+        },
+        {
+            "id": "3-1",
+            "title": "CSS可视化",
+            "icon": "https://css.bqrdh.com/favicon.ico",
+            "website": "https://css.bqrdh.com/box-style-editor",
+            "description": "提供了CSS边框、文字、图片、背景等常见的生成器，CSS动画效果，CSS色彩，字体预览等常用工具。",
+            "links": []
+        },
+        {
+            "id": "3-1",
+            "title": "菜鸟教程",
+            "icon": "./assets/rookie_tutorial.png",
+            "website": "https://www.runoob.com/",
+            "description": "软件开发工程师必备的参考教程和手册,涵盖了HTML、CSS、JavaScript、NodeJS、SQL、Python、PHP、Bootstrap、Java等。",
+            "links": []
+        },
+        {
+            "id": "3-1",
+            "title": "W3CSchool",
+            "icon": "./assets/w3c_school.png",
+            "website": "https://www.w3cschool.cn/",
+            "description": "在w3school，你可以找到你所需要的所有的网站建设教程。",
+            "links": []
+        },
+        {
+            "id": "3-1",
+            "title": "宝藏星球屋",
+            "icon": "https://bzxqw.top//wp-content/uploads/2024/03/2024030919225699.png",
+            "website": "https://bzxqw.top/",
+            "description": "集网络众多资源于一体的免费宝藏网站。",
+            "links": []
+        },
+        {
+            "id": "3-1",
+            "title": "知识·树洞",
+            "icon": "./favicon.png",
+            "website": "https://link3.cc/quruanpu",
+            "description": "集网络众多资源于一体的免费宝藏网站。",
+            "links": []
+        }
+    ]
+}

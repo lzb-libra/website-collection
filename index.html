@@ -11,12 +11,12 @@
 <nav class="navbar">
     <div class="navbar-container">
         <a href="#" class="brand">Website Collection</a>
-        <ul class="nav-links">
-            <li><a href="#FRONT">前端</a></li>
-            <li><a href="#BACK">后端</a></li>
-            <li><a href="#DEVOPS">运维</a></li>
-            <li><a href="#RESOURCE">资源</a></li>
-        </ul>
+        <div style="display: flex; align-items: center">
+            <ul class="nav-links" id="navigation_bar"></ul>
+            <a href="https://github.com/lzb-libra/website-collection" target="_blank" style="display: flex; align-items: center">
+                <img src="./assets/github.svg" style="width: 25px; height: 25px; margin-left: 40px;" alt="">
+            </a>
+        </div>
     </div>
 </nav>
 
@@ -31,1060 +31,130 @@
         <!-- 编程语言 -->
         <div class="subcategory">
             <h3>基础语言</h3>
-            <div class="websites-grid">
-                <!-- HTML 5 -->
-                <div class="website">
-                    <img src="./assets/html.png" alt="HTML 5">
-                    <div class="website-info">
-                        <h4><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" target="_blank">HTML 5</a></h4>
-                        <p>HTML的全称为超文本标记语言，是一种标记语言。</p>
-                        <div class="external-links">
-                            <a href="https://www.runoob.com/html/html5-intro.html" target="_blank">
-                                <img src="./assets/rookie_tutorial.png" alt="" />
-                            </a>
-                            <a href="https://www.w3school.com.cn/html/html5_intro.asp" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" >
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- HTML5+ API -->
-                <div class="website">
-                    <img src="./assets/html5+.png" alt="HTML5+ API">
-                    <div class="website-info">
-                        <h4><a href="https://www.html5plus.org/doc/h5p.html" target="_blank">HTML5+ API</a></h4>
-                        <p>HTML的全称为超文本标记语言，是一种标记语言。</p>
-                        <div class="external-links">
-                            <a href="https://www.runoob.com/html/html5-intro.html" target="_blank">
-                                <img src="./assets/rookie_tutorial.png" alt="" />
-                            </a>
-                            <a href="https://www.w3school.com.cn/html/html5_intro.asp" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" >
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- CSS 3 -->
-                <div class="website">
-                    <img src="./assets/css.png" alt="CSS 3">
-                    <div class="website-info">
-                        <h4><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS" target="_blank">CSS 3</a></h4>
-                        <p>CSS是一种用来表现HTML或XML等文件样式的计算机语言。</p>
-                        <div class="external-links">
-                            <a href="https://www.runoob.com/css/css-tutorial.html" target="_blank">
-                                <img src="./assets/rookie_tutorial.png" alt="" >
-                            </a>
-                            <a href="https://www.w3school.com.cn/css/index.asp" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" >
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- JavaScript -->
-                <div class="website">
-                    <img src="./assets/javaScript.png" alt="JavaScript">
-                    <div class="website-info">
-                        <h4><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript" target="_blank">JavaScript</a></h4>
-                        <p>JavaScript是一种具有函数优先的轻量级，解释型或即时编译型的编程语言。</p>
-                        <div class="external-links">
-                            <a href="https://www.runoob.com/js/js-tutorial.html" target="_blank">
-                                <img src="./assets/rookie_tutorial.png" alt="" >
-                            </a>
-                            <a href="https://www.w3school.com.cn/js/index.asp" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" >
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- TypeScript -->
-                <div class="website">
-                    <img src="./assets/typescript.png" alt="TypeScript">
-                    <div class="website-info">
-                        <h4><a href="https://www.tslang.cn/index.html" target="_blank">TypeScript</a></h4>
-                        <p>TypeScript是微软开发的一个开源的编程语言，通过在JavaScript的基础上添加静态类型定义构建而成。</p>
-                        <div class="external-links">
-                            <a href="https://www.runoob.com/typescript/ts-tutorial.html" target="_blank">
-                                <img src="./assets/rookie_tutorial.png" alt="" />
-                            </a>
-                            <a href="https://www.w3cschool.cn/typescript/" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="websites-grid" id="0-0"></div>
         </div>
         <!-- 编程框架 -->
         <div class="subcategory">
             <h3>编程框架</h3>
-            <div class="websites-grid">
-                <!-- React -->
-                <div class="website">
-                    <img src="./assets/react.png" alt="React">
-                    <div class="website-info">
-                        <h4><a href="https://zh-hans.react.dev/" target="_blank">React</a></h4>
-                        <p>React是用于构建用户界面的JavaScript库，起源于Facebook的内部项目。</p>
-                        <div class="external-links">
-                            <a href="https://www.runoob.com/react/react-tutorial.html" target="_blank">
-                                <img src="./assets/rookie_tutorial.png" alt="" />
-                            </a>
-                            <a href="https://www.w3cschool.cn/react/" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- VUE.js 2 -->
-                <div class="website">
-                    <img src="./assets/vue.png" alt="Vue 2">
-                    <div class="website-info">
-                        <h4><a href="https://v2.cn.vuejs.org/v2/guide/" target="_blank">Vue 2</a></h4>
-                        <p>易学易用，性能出色，适用场景丰富的 Web 前端框架。</p>
-                        <div class="external-links">
-                            <a href="https://www.runoob.com/vue2/vue-tutorial.html" target="_blank">
-                                <img src="./assets/rookie_tutorial.png" alt="" />
-                            </a>
-                            <a href="https://www.w3cschool.cn/vuejs2/" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- VUE.js 3 -->
-                <div class="website">
-                    <img src="./assets/vue.png" alt="Vue 3">
-                    <div class="website-info">
-                        <h4><a href="https://cn.vuejs.org/" target="_blank">Vue 3</a></h4>
-                        <p>易学易用，性能出色，适用场景丰富的 Web 前端框架。</p>
-                        <div class="external-links">
-                            <a href="https://www.runoob.com/vue3/vue3-tutorial.html" target="_blank">
-                                <img src="./assets/rookie_tutorial.png" alt="" />
-                            </a>
-                            <a href="https://www.w3cschool.cn/vuejs3/" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Angular -->
-                <div class="website">
-                    <img src="./assets/angular.png" alt="Angular">
-                    <div class="website-info">
-                        <h4><a href="https://www.angular.cn/" target="_blank">Angular</a></h4>
-                        <p>Angular是一个应用设计框架与开发平台，用于创建高效、复杂、精致的单页面应用，通过新的属性和表达式扩展了 HTML，实现一套框架，多种平台，移动端和桌面端。</p>
-                        <div class="external-links">
-                            <a href="https://www.runoob.com/angularjs2/angularjs2-tutorial.html" target="_blank">
-                                <img src="./assets/rookie_tutorial.png" alt="" />
-                            </a>
-                            <a href="https://www.w3cschool.cn/angular2/" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Svelte -->
-                <div class="website">
-                    <img src="./assets/svelte.png" alt="Svelte">
-                    <div class="website-info">
-                        <h4><a href="https://www.angular.cn/" target="_blank">Svelte</a></h4>
-                        <p>
-                            Svelte提供了一种不同的方式来建构网站应用方式。
-                            当应用程序运行时，像React和Vue.js等框架会在使用者的浏览器直接做它们想要做的事情，而Svelte则是将做的这些事移到编译阶段处理，因此那些做的事情只会发生在你建置应用程序的时候，进而能产生高度优化的原生JavaScript程序代码。</p>
-                        <div class="external-links">
-                            <a href="https://www.w3cschool.cn/yzwdb/" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Electron -->
-                <div class="website">
-                    <img src="https://www.electronjs.org/zh/assets/img/logo.svg" alt="Electron">
-                    <div class="website-info">
-                        <h4><a href="https://www.electronjs.org/zh/" target="_blank">Electron</a></h4>
-                        <p>使用JavaScript、HTML和CSS构建跨平台桌面应用程序。</p>
-                        <div class="external-links">
-                            <img src="./assets/window.png" alt="" style="margin-left: 1px" >
-                            <img src="./assets/mac.png" alt="" style="margin-left: 3px;" >
-                            <img src="./assets/linux.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/tauri.png" alt="Tauri">
-                    <div class="website-info">
-                        <h4><a href="https://tauri.app/" target="_blank">Tauri</a></h4>
-                        <p>构建跨平台的快速、安全、前端隔离应用。</p>
-                        <div class="external-links">
-                            <img src="./assets/window.png" alt="" style="margin-left: 1px" >
-                            <img src="./assets/mac.png" alt="" style="margin-left: 3px;" >
-                            <img src="./assets/linux.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Hippy -->
-                <div class="website">
-                    <img src="https://hippyjs.org/_media/hippy-logo.png" alt="Hippy">
-                    <div class="website-info">
-                        <h4><a href="https://hippyjs.org/#/" target="_blank">Hippy</a></h4>
-                        <p>Hippy 可以理解为一个精简版的浏览器，从底层做了大量工作，抹平了 iOS 和 Android 双端差异，提供了接近 Web 的开发体验，目前上层支持了 React 和 Vue 两套界面框架，前端开发人员可以通过它，将前端代码转换为终端的原生指令，进行原生终端 App 的开发。</p>
-                        <div class="external-links">
-                            <img src="./assets/android.png" alt="" />
-                            <img src="./assets/apple.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-
-                <!-- uni-app -->
-                <div class="website">
-                    <img src="./assets/uni-app.png" alt="uni-app">
-                    <div class="website-info">
-                        <h4><a href="https://uniapp.dcloud.net.cn/" target="_blank">uni-app</a></h4>
-                        <p>一个使用Vue.js开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序、快应用等多个平台。</p>
-                        <div class="external-links">
-                            <img src="./assets/android.png" alt="" />
-                            <img src="./assets/apple.png" alt="" />
-                            <img src="./assets/web.png" alt="" />
-                            <img src="./assets/mini_program.png" alt="" />
-                            <img src="./assets/quick_application.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-
-                <!-- React Native -->
-                <div class="website">
-                    <img src="./assets/react.png" alt="React Native">
-                    <div class="website-info">
-                        <h4><a href="https://reactnative.cn/" target="_blank">React Native</a></h4>
-                        <p>使用 React 来创建 Android 和 iOS 的原生应用。</p>
-                        <div class="external-links">
-                            <img src="./assets/android.png" alt="" />
-                            <img src="./assets/apple.png" alt="" />
-                            <img src="./assets/window.png" alt="" >
-                            <img src="./assets/mac.png" alt="" style="margin-left: 1px;">
-                            <img src="./assets/web.png" alt="" style="margin-left: 1px;" >
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Flutter -->
-                <div class="website">
-                    <img src="./assets/flutter.png" alt="Flutter">
-                    <div class="website-info">
-                        <h4><a href="https://flutter.cn/" target="_blank">Flutter</a></h4>
-                        <p>只要一套代码库，即可构建、测试和发布适用于移动、Web、桌面和嵌入式平台的精美应用。</p>
-                        <div class="external-links">
-                            <img src="./assets/android.png" alt="" />
-                            <img src="./assets/apple.png" alt="" />
-                            <img src="./assets/web.png" alt="" />
-                            <img src="./assets/window.png" alt="" style="margin-left: 1px" >
-                            <img src="./assets/mac.png" alt="" style="margin-left: 3px;" >
-                            <img src="./assets/linux.png" alt="" />
-                            <img src="./assets/embedded.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="websites-grid" id="0-1"></div>
         </div>
         <!-- 工具插件 -->
         <div class="subcategory">
             <h3>工具插件</h3>
-            <div class="websites-grid">
-                <!-- Vuex -->
-                <div class="website">
-                    <img src="./assets/vue.png" alt="Vuex">
-                    <div class="website-info">
-                        <h4><a href="https://vuex.vuejs.org/zh/" target="_blank">Vuex</a></h4>
-                        <p>Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式 + 库。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- Pinia -->
-                <div class="website">
-                    <img src="https://pinia.vuejs.org/logo.png" alt="Pinia">
-                    <div class="website-info">
-                        <h4><a href="https://pinia.vuejs.org/zh/" target="_blank">Pinia</a></h4>
-                        <p>符合直觉的 Vue.js 状态管理库</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- Vue Router -->
-                <div class="website">
-                    <img src="./assets/vue.png" alt="Vue Router">
-                    <div class="website-info">
-                        <h4><a href="https://router.vuejs.org/zh/" target="_blank">Vue Router</a></h4>
-                        <p>为 Vue.js 提供富有表现力、可配置的、方便的路由。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- Vite -->
-                <div class="website">
-                    <img src="./assets/vite.png" alt="Vite">
-                    <div class="website-info">
-                        <h4><a href="https://cn.vitejs.dev/" target="_blank">Vite</a></h4>
-                        <p>Vite 是一个现代前端构建工具，旨在提供极快的开发体验和高效的构建性能。</p>
-                        <div class="external-links">
-                            <img src="./assets/vue.png" alt="" title="Vue" />
-                            <img src="./assets/react.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-
-                <!-- React Redux -->
-                <div class="website">
-                    <img src="./assets/react_redux.png" alt="React Redux">
-                    <div class="website-info">
-                        <h4><a href="https://cn.redux.js.org/" target="_blank">React Redux</a></h4>
-                        <p>React 应用的状态容器，提供可预测的状态管理。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- React Recoil -->
-                <div class="website">
-                    <img src="./assets/recoil.png" alt="React Recoil">
-                    <div class="website-info">
-                        <h4><a href="https://recoiljs.org/zh-hans/" target="_blank">React Recoil</a></h4>
-                        <p>React 应用的状态容器，提供可预测的状态管理。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- React Router -->
-                <div class="website">
-                    <img src="./assets/react-router.png" alt="React Router" style="height: 35px;">
-                    <div class="website-info">
-                        <h4><a href="https://reactrouter.com/en/main" target="_blank">React Router</a></h4>
-                        <p>管理 React 中 URL 与组件之间的映射关系。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- Webpack -->
-                <div class="website">
-                    <img src="./assets/webpack.png" alt="Webpack">
-                    <div class="website-info">
-                        <h4><a href="https://www.webpackjs.com/" target="_blank">Webpack</a></h4>
-                        <p>webpack 是一个用于现代 JavaScript 应用程序的静态模块打包工具。</p>
-                        <div class="external-links">
-                            <img src="./assets/vue.png" alt="" title="Vue" />
-                            <img src="./assets/react.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Less -->
-                <div class="website">
-                    <img src="https://less.bootcss.com/public/img/less_logo.png" style="height: 30px;" alt="less">
-                    <div class="website-info">
-                        <h4><a href="https://less.bootcss.com/" target="_blank">Less</a></h4>
-                        <p>Less 是一种动态样式语言，它扩展了 CSS，增加了变量、嵌套规则、混合（mixins）、函数等功能。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- Sass -->
-                <div class="website">
-                    <img src="https://www.sass.hk/favicon.ico" alt="Sass">
-                    <div class="website-info">
-                        <h4><a href="https://www.sass.hk/" target="_blank">Sass</a></h4>
-                        <p>世界上最成熟、最稳定、最强大的专业级CSS扩展语言，比Less强大。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- UnoCSS -->
-                <div class="website">
-                    <img src="./assets/unocss.svg" alt="UnoCSS">
-                    <div class="website-info">
-                        <h4><a href="https://unocss.dev/" target="_blank">UnoCSS</a></h4>
-                        <p>UnoCSS 是一个功能强大的即时原子化 CSS 框架，旨在提供高性能和灵活的 CSS 解决方案。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- WebTracing -->
-                <div class="website">
-                    <img src="https://raw.githubusercontent.com/M-cheng-web/image-provider/main/web-tracing/logo.7k1jidnhjr40.svg" alt="WebTracing">
-                    <div class="website-info">
-                        <h4><a href="https://m-cheng-web.github.io/web-tracing/" target="_blank">WebTracing</a></h4>
-                        <p>为前端项目提供完善的监控手段。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-            </div>
+            <div class="websites-grid" id="0-2"></div>
         </div>
         <!-- UI组件 -->
         <div class="subcategory">
             <h3>UI组件</h3>
-            <div class="websites-grid">
-                <!-- LayUI -->
-                <div class="website">
-                    <img src="./assets/layui.png" alt="LayUI">
-                    <div class="website-info">
-                        <h4><a href="https://layui.dev/" target="_blank">LayUI</a></h4>
-                        <p>Vuetify 是一个功能强大的Vue组件框架，从底层开始构建，易学易用。</p>
-                        <div class="external-links">
-                            <a href="https://layui.dev/docs/2/" target="_blank">
-                                <img src="./assets/html.png" alt="" />
-                            </a>
-                            <a href="http://www.layui-vue.com/zh-CN/guide/introduce" target="_blank">
-                                <img src="./assets/vue_3.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Naive UI -->
-                <div class="website">
-                    <img src="./assets/naive-ui.png" alt="Naive UI">
-                    <div class="website-info">
-                        <h4><a href="https://www.naiveui.com/zh-CN/os-theme" target="_blank">Naive UI</a></h4>
-                        <p>Vuetify 是一个功能强大的Vue组件框架，从底层开始构建，易学易用。</p>
-                        <div class="external-links">
-                            <a href="https://www.naiveui.com/zh-CN/os-theme/docs/installation" target="_blank">
-                                <img src="./assets/vue_3.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Vant -->
-                <div class="website">
-                    <img src="./assets/vant.png" alt="Vant">
-                    <div class="website-info">
-                        <h4><a href="https://www.naiveui.com/zh-CN/os-theme" target="_blank">Vant</a></h4>
-                        <p>Vant 是一个轻量、可靠的移动端组件库，于 2017 年开源。</p>
-                        <div class="external-links">
-                            <a href="https://vant-ui.github.io/vant/v2/#/zh-CN/" target="_blank">
-                                <img src="./assets/vue_2.png" alt="" />
-                            </a>
-                            <a href="https://vant-ui.github.io/vant/#/zh-CN" target="_blank">
-                                <img src="./assets/vue_3.png" alt="" />
-                            </a>
-                            <a href="https://react-vant.3lang.dev/guide/about" target="_blank">
-                                <img src="./assets/react.png" alt="" />
-                            </a>
-                            <a href="https://vant-ui.github.io/vant-weapp/#/home" target="_blank">
-                                <img src="./assets/mini_program.png" alt="" />
-                            </a>
-                            <a href="https://ant-move.github.io/vant-ailapp-docs/#/intro" target="_blank">
-                                <img src="./assets/alipay.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Vuetify -->
-                <div class="website">
-                    <img src="./assets/vuetify.png" alt="Vuetify">
-                    <div class="website-info">
-                        <h4><a href="https://vuetifyjs.com/zh-Hans/" target="_blank">Vuetify</a></h4>
-                        <p>Vuetify 是一个功能强大的Vue组件框架，从底层开始构建，易学易用。</p>
-                        <div class="external-links">
-                            <a href="https://v2.vuetifyjs.com/zh-Hans/getting-started/installation/" target="_blank">
-                                <img src="./assets/vue_2.png" alt="" />
-                            </a>
-                            <a href="https://vuetifyjs.com/zh-Hans/getting-started/installation/" target="_blank">
-                                <img src="./assets/vue_3.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Quasar -->
-                <div class="website">
-                    <img src="./assets/quasar.png" alt="Quasar">
-                    <div class="website-info">
-                        <h4><a href="https://quasar.dev/" target="_blank">Quasar</a></h4>
-                        <p>为所有平台提供一个权威的代码源：响应式桌面/移动网站，PWA，移动应用和多平台桌面应用（通过Electron）。</p>
-                        <div class="external-links">
-                            <a href="https://v1.quasar.dev/" target="_blank">
-                                <img src="./assets/vue_2.png" alt="" />
-                            </a>
-                            <a href="https://quasar.dev/" target="_blank">
-                                <img src="./assets/vue_3.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Easy UI -->
-                <div class="website">
-                    <img src="./assets/easy-ui.png" alt="Easy UI">
-                    <div class="website-info">
-                        <h4><a href="http://www.jeasyui.com/index.php" target="_blank">Easy UI</a></h4>
-                        <p>Vuetify 是一个功能强大的Vue组件框架，从底层开始构建，易学易用。</p>
-                        <div class="external-links">
-                            <a href="http://www.jeasyui.com/documentation4/index.php" target="_blank">
-                                <img src="./assets/vue_2.png" alt="" />
-                            </a>
-                            <a href="http://www.jeasyui.com/documentation5/index.php" target="_blank">
-                                <img src="./assets/react.png" alt="" />
-                            </a>
-                            <a href="http://www.jeasyui.com/documentation2/index.php" target="_blank">
-                                <img src="./assets/angular.png" alt="" />
-                            </a>
-                            <a href="http://www.jeasyui.com/documentation/index.php" target="_blank">
-                                <img src="./assets/jQuery.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Element UI -->
-                <div class="website">
-                    <img src="./assets/element-ui.png" alt="Element UI">
-                    <div class="website-info">
-                        <h4><a href="https://zh-hans.react.dev/" target="_blank">Element UI</a></h4>
-                        <p>一套为开发者、设计师和产品经理准备的基于Vue的桌面端组件库。</p>
-                        <div class="external-links">
-                            <a href="https://element.eleme.cn/#/zh-CN/component/installation" target="_blank">
-                                <img src="./assets/vue_2.png" alt="" />
-                            </a>
-                            <a href="https://element-plus.org/zh-CN/component/overview.html" target="_blank">
-                                <img src="./assets/vue_3.png" alt="" />
-                            </a>
-                            <a href="https://elemefe.github.io/element-react/index#/zh-CN/quick-start" target="_blank">
-                                <img src="./assets/react.png" alt="" />
-                            </a>
-                            <a href="https://element-angular.faas.ele.me/guide/install" target="_blank">
-                                <img src="./assets/angular.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- PrimeVue -->
-                <div class="website">
-                    <img src="https://primevue.org/favicon.ico" alt="PrimeVue">
-                    <div class="website-info">
-                        <h4><a href="https://primevue.org/" target="_blank">PrimeVue</a></h4>
-                        <p>使用 PrimeVue 全面的可定制、功能丰富的 UI 组件套件增强您的 Web 应用程序。</p>
-                        <div class="external-links">
-                            <a href="https://www.primefaces.org/primevue-v2/#/" target="_blank">
-                                <img src="./assets/vue_2.png" alt="" />
-                            </a>
-                            <a href="https://www.primefaces.org/primevue/" target="_blank">
-                                <img src="./assets/vue_3.png" alt="" />
-                            </a>
-                            <a href="https://www.primefaces.org/primereact/" target="_blank">
-                                <img src="./assets/react.png" alt="" />
-                            </a>
-                            <a href="https://www.primefaces.org/primeng/" target="_blank">
-                                <img src="./assets/angular.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Ant Design -->
-                <div class="website">
-                    <img src="./assets/antd.png" alt="Ant Design">
-                    <div class="website-info">
-                        <h4><a href="https://ant-design.antgroup.com/index-cn" target="_blank">Ant Design</a></h4>
-                        <p>Ant Design 5.0 开放更多样式算法，让你定制主题更简单。</p>
-                        <div class="external-links">
-                            <a href="https://1x.antdv.com/docs/vue/introduce-cn/" target="_blank">
-                                <img src="./assets/vue_2.png" alt="" />
-                            </a>
-                            <a href="https://www.antdv.com/components/overview-cn" target="_blank">
-                                <img src="./assets/vue_3.png" alt="" />
-                            </a>
-                            <a href="https://ant-design.antgroup.com/components/overview-cn/" target="_blank">
-                                <img src="./assets/react.png" alt="" />
-                            </a>
-                            <a href="https://ng.ant.design/docs/introduce/zh" target="_blank">
-                                <img src="./assets/angular.png" alt="" />
-                            </a>
-                            <a href="https://rn.mobile.ant.design/docs/react/introduce-cn" target="_blank">
-                                <img src="./assets/phone.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="websites-grid" id="0-3"></div>
         </div>
         <!-- 字体图标 -->
         <div class="subcategory">
             <h3>字体图标</h3>
-            <div class="websites-grid">
-                <div class="website">
-                    <img src="./assets/font-awesome.svg" alt="Font Awesome">
-                    <div class="website-info">
-                        <h4><a href="https://fontawesome.com/" target="_blank">Font Awesome</a></h4>
-                        <p>Font Awesome 是互联网的图标库和工具包，被数百万设计师、开发人员和内容创建者使用。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/material_icons.svg" alt="Material Icons">
-                    <div class="website-info">
-                        <h4><a href="https://fonts.google.com/icons" target="_blank">Material Icons</a></h4>
-                        <p>Material icons 是一套互联网开放的图标集合,由 Google设计师团队“Google Material Design Team”开发,集成了多种常见的图标。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/antd.png" alt="Ant Design Icons">
-                    <div class="website-info">
-                        <h4><a href="https://ant.design/components/icon" target="_blank">Ant Design Icons</a></h4>
-                        <p>基于著名UI框架Ant Design的一套高质量SVG图标解决方案。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/iconify.svg" alt="iconify">
-                    <div class="website-info">
-                        <h4><a href="https://icon-sets.iconify.design/?category=General" target="_blank">iconify</a></h4>
-                        <p>超过 200,000 个开源矢量图标。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="https://yesicon.app/favicon.svg" alt="YesIcon">
-                    <div class="website-info">
-                        <h4><a href="https://yesicon.app/" target="_blank">YesIcon</a></h4>
-                        <p>大量高品质矢量图标来自全球顶尖设计团队。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/iconfont.png" alt="IconFont">
-                    <div class="website-info">
-                        <h4><a href="https://www.iconfont.cn/" target="_blank">IconFont</a></h4>
-                        <p>大量高品质矢量图标来自全球顶尖设计团队。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/iconfinder.png" alt="IconFinder">
-                    <div class="website-info">
-                        <h4><a href="https://www.iconfinder.com/" target="_blank">IconFinder</a></h4>
-                        <p>为您的设计项目提供数以百万计的图形。由独立设计师创作。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/feather.png" alt="Feather Icons">
-                    <div class="website-info">
-                        <h4><a href="https://feathericons.com/" target="_blank">Feather Icons</a></h4>
-                        <p>Feather Icons 提供了一组简洁、线性的图标，设计上遵循简洁和一致性原则。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/xicons.svg" alt="XIcons">
-                    <div class="website-info">
-                        <h4><a href="https://www.xicons.org/#/" target="_blank">XIcons</a></h4>
-                        <p>提供了多种图标库的 Vue 和 React 组件封装，可以方便地在 Vue 和 React 项目中使用。这些图标库包括 Ant Design Icons、Material Icons、Feather Icons 等。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/huge-icons.svg" alt="hugeicons">
-                    <div class="website-info">
-                        <h4><a href="https://hugeicons.com/" target="_blank">hugeicons</a></h4>
-                        <p>精心制作的顶级图标库，专为设计师和开发人员打造。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-            </div>
+            <div class="websites-grid" id="0-4"></div>
         </div>
     </div>
-
     <div id="BACK" class="category">
         <h2>后端</h2>
-
         <div class="subcategory">
             <h3>编程语言</h3>
-            <div class="websites-grid">
-                <!-- C -->
-                <div class="website">
-                    <img src="./assets/c_language_1.png" alt="C">
-                    <div class="website-info">
-                        <h4><a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">C</a></h4>
-                        <p>用于系统编程、嵌入式系统、操作系统开发等。特点是高效、性能优越、控制底层硬件。</p>
-                        <div class="external-links">
-                            <a href="https://www.runoob.com/cprogramming/c-tutorial.html" target="_blank">
-                                <img src="./assets/rookie_tutorial.png" alt="" />
-                            </a>
-                            <a href="https://www.w3cschool.cn/c/" target="_blank">
-                                <img src="./assets/w3c_school.png" alt="" />
-                            </a>
-                            <a href="https://www.bilibili.com/video/BV1dr4y1n7vA/?spm_id_from=333.337.search-card.all.click" target="_blank">
-                                <img src="./assets/bilibili.png" alt="" />
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/c_language_2.png" alt="C++" style="width: 45px">
-                    <div class="website-info">
-                        <h4><a href="https://isocpp.org/" target="_blank">C++</a></h4>
-                        <p>用于系统编程、游戏开发、图形应用等。特点是支持面向对象编程、泛型编程和低级内存</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/c_language_3.png" alt="C#">
-                    <div class="website-info">
-                        <h4><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a></h4>
-                        <p>用于Windows应用、Web应用（ASP.NET）、游戏开发（Unity）。特点是面向对象、现代语言设计、与.NET平台紧密集成。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/java.png" alt="Java">
-                    <div class="website-info">
-                        <h4><a href="https://www.oracle.com/cn/java/" target="_blank">Java</a></h4>
-                        <p>用于企业级应用、移动应用（Android）、Web 应用等。特点是跨平台性（JVM）、面向对象、丰富的库和框架。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/python.png" alt="Python">
-                    <div class="website-info">
-                        <h4><a href="https://www.python.org/" target="_blank">Python</a></h4>
-                        <p>用于Web开发、数据科学、人工智能、自动化脚本等。特点是语法简洁、易读易写、丰富的库、多范式支持。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/golang.png" alt="Golang">
-                    <div class="website-info">
-                        <h4><a href="https://go.dev/" target="_blank">Golang</a></h4>
-                        <p>用于系统编程、服务器端开发、分布式系统、网络编程。特点是简洁、高效、并发支持强、编译速度快、垃圾回收。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/ruby.png" alt="Ruby">
-                    <div class="website-info">
-                        <h4><a href="https://www.ruby-lang.org/zh_cn/" target="_blank">Ruby</a></h4>
-                        <p>用于Web开发。特点是简洁优雅、面向对象、动态类型、广泛用于快速开发Web应用（如Ruby on Rails）。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/swift.png" alt="Dart">
-                    <div class="website-info">
-                        <h4><a href="https://www.swift.org/" target="_blank">Swift</a></h4>
-                        <p>用于iOS和macOS应用开发。特点是现代、强类型、安全性高、与苹果生态系统紧密集成。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/kotlin.png" alt="Kotlin">
-                    <div class="website-info">
-                        <h4><a href="https://kotlinlang.org/" target="_blank">Kotlin</a></h4>
-                        <p>用于跨平台移动应用开发（主要与Flutter框架一起使用）、Web开发。特点是快速开发、即时编译、强类型。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/rust.png" alt="Rust">
-                    <div class="website-info">
-                        <h4><a href="https://www.rust-lang.org/" target="_blank">Rust</a></h4>
-                        <p>用于系统编程、嵌入式系统、WebAssembly。特点是内存安全、并发支持、性能高、无垃圾回收。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <div class="website">
-                    <img src="./assets/nodejs.png" alt="Node.js">
-                    <div class="website-info">
-                        <h4><a href="https://nodejs.org/zh-cn" target="_blank">Node.js</a></h4>
-                        <p>Node.js 具有非阻塞I/O、事件驱动架构，适用于实时应用和高并发处理。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-            </div>
+            <div class="websites-grid" id="1-0"></div>
         </div>
     </div>
-
     <div id="DEVOPS" class="category">
         <h2>运维</h2>
-        <div class="websites-grid">
-            <!-- Linux -->
-            <div class="website">
-                <img src="./assets/linux.png" alt="Linux">
-                <div class="website-info">
-                    <h4><a style="cursor: pointer" target="_blank">Linux 命令</a></h4>
-                    <p>常用Linux命令指南。</p>
-                    <div class="external-links">
-                        <a href="https://www.runoob.com/linux/linux-tutorial.html" target="_blank">
-                            <img src="./assets/rookie_tutorial.png" alt="" />
-                        </a>
-                        <a href="https://www.w3cschool.cn/linux/" target="_blank">
-                            <img src="./assets/w3c_school.png" alt="" />
-                        </a>
-                        <a href="https://www.bilibili.com/video/BV1Sv411r7vd/?spm_id_from=333.337.search-card.all.click" target="_blank">
-                            <img src="./assets/bilibili.png" alt="" />
-                        </a>
-                        <a href="http://linux.51yip.com/" target="_blank">
-                            <img src="./assets/document_1.png" alt="" />
-                        </a>
-                        <a href="https://linux.cmsblogs.cn/" target="_blank">
-                            <img src="assets/document_2.png" alt="" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Docker -->
-            <div class="website">
-                <img src="./assets/docker.svg" alt="Docker">
-                <div class="website-info">
-                    <h4><a href="https://www.docker.com/" target="_blank">Docker</a></h4>
-                    <p>Docker 是一个开源的平台即服务（PaaS），用于开发、交付和运行应用程序。它基于容器化技术，能够让开发者和系统管理员在容器中打包应用程序及其所有依赖项，以确保应用程序可以在任何环境中快速部署和运行。</p>
-                    <div class="external-links">
-                        <a href="https://www.runoob.com/docker/docker-tutorial.html" target="_blank">
-                            <img src="./assets/rookie_tutorial.png" alt="" />
-                        </a>
-                        <a href="https://www.w3cschool.cn/docker/" target="_blank">
-                            <img src="./assets/w3c_school.png" alt="" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Kubernetes -->
-            <div class="website">
-                <img src="./assets/kubernetes.svg" alt="Kubernetes">
-                <div class="website-info">
-                    <h4><a href="https://kubernetes.io/zh-cn/" target="_blank">Kubernetes</a></h4>
-                    <p>Kubernetes（通常简称为 k8s）是一个开源的容器编排引擎，用于自动化部署、扩展和管理容器化应用程序。</p>
-                    <div class="external-links">
-                        <a href="https://www.w3cschool.cn/kubernetes/" target="_blank">
-                            <img src="./assets/w3c_school.png" alt="" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Prometheus -->
-            <div class="website">
-                <img src="./assets/prometheus.svg" alt="Prometheus">
-                <div class="website-info">
-                    <h4><a href="https://prometheus.io/" target="_blank">Prometheus</a></h4>
-                    <p>Prometheus 是一个开源的监控和警报工具包，专为高度动态的分布式系统设计。</p>
-                    <div class="external-links"></div>
-                </div>
-            </div>
-
-            <!-- Grafana -->
-            <div class="website">
-                <img src="./assets/grafana.svg" alt="Grafana">
-                <div class="website-info">
-                    <h4><a href="https://grafana.com/" target="_blank">Grafana</a></h4>
-                    <p>Grafana 是一个开源的数据可视化和监控平台，用于分析和监控应用程序、服务器和网络。它支持多种数据源，包括 Prometheus、Elasticsearch、Graphite 等，可以创建和分享动态仪表板，帮助用户实时了解系统的运行情况。</p>
-                    <div class="external-links"></div>
-                </div>
-            </div>
-
-            <!-- Grafana -->
-            <div class="website">
-                <img src="./assets/jenkins.svg" alt="Jenkins">
-                <div class="website-info">
-                    <h4><a href="https://www.jenkins.io/" target="_blank">Jenkins</a></h4>
-                    <p>Jenkins 是一个开源的持续集成（CI）和持续部署（CD）工具，用于自动化构建、测试和部署软件项目。它支持插件扩展和多种集成方式，能够帮助开发团队提高生产效率和代码质量。</p>
-                    <div class="external-links"></div>
-                </div>
-            </div>
-        </div>
+        <div class="websites-grid" id="2-0"></div>
     </div>
-
     <div id="RESOURCE" class="category">
         <h2>资源</h2>
         <!-- 精选应用 -->
         <div class="subcategory">
             <h3>精选应用</h3>
-            <div class="websites-grid">
-                <!-- MusicFree -->
-                <div class="website">
-                    <img src="https://musicfree.upup.fun/favicon.ico" alt="MusicFree">
-                    <div class="website-info">
-                        <h4><a href="https://musicfree.upup.fun/" target="_blank">MusicFree</a></h4>
-                        <p>HTML的全称为超文本标记语言，是一种标记语言。</p>
-                        <div class="external-links">
-                            <a href="https://github.com/maotoumao/MusicFree/releases" target="_blank">
-                                <img src="./assets/android.png" alt="" />
-                            </a>
-                            <a href="https://github.com/maotoumao/MusicFreeDesktop/releases" target="_blank">
-                                <img src="./assets/window.png" alt="" />
-                            </a>
-                            <a href="https://github.com/maotoumao/MusicFreeDesktop/releases" target="_blank">
-                                <img src="./assets/mac.png" style="height: 18px" alt="" >
-                            </a>
-                            <a href="https://github.com/maotoumao/MusicFreeDesktop/releases" target="_blank">
-                                <img src="./assets/linux.png" style="height: 18px" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Listen1 -->
-                <div class="website">
-                    <img src="./favicon.png" alt="Listen1">
-                    <div class="website-info">
-                        <h4><a href="https://listen1.github.io/listen1/" target="_blank">Listen1</a></h4>
-                        <p>Listen 1可以搜索和播放来自网易云音乐，QQ音乐，酷狗音乐，酷我音乐，Bilibili，咪咕音乐网站的歌曲，让你的曲库更全面。</p>
-                        <div class="external-links">
-                            <a href="https://github.com/listen1/listen1_mobile/releases" target="_blank">
-                                <img src="./assets/android.png" alt="" />
-                            </a>
-                            <a href="https://github.com/listen1/listen1_desktop/releases" target="_blank">
-                                <img src="./assets/window.png" alt="" />
-                            </a>
-                            <a href="https://github.com/listen1/listen1_desktop/releases" target="_blank">
-                                <img src="./assets/mac.png" style="height: 18px" alt="" >
-                            </a>
-                            <a href="https://github.com/listen1/listen1_desktop/releases" target="_blank">
-                                <img src="./assets/linux.png" style="height: 18px" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- PotPlayer -->
-                <div class="website">
-                    <img src="https://globalpotplayer.cn/favicon.ico" alt="MusicFree">
-                    <div class="website-info">
-                        <h4><a href="https://globalpotplayer.com/" target="_blank">PotPlayer</a></h4>
-                        <p>全能视频播放器。</p>
-                        <div class="external-links">
-                            <a href="https://globalpotplayer.com/" target="_blank">
-                                <img src="./assets/window.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- TinyTask -->
-                <div class="website">
-                    <img src="./assets/tinytask.png" alt="TinyTask">
-                    <div class="website-info">
-                        <h4><a href="https://tinytask.net/" target="_blank">TinyTask</a></h4>
-                        <p>一款极简主义的 PC 自动化应用程序，可用于记录和重复操作。</p>
-                        <div class="external-links">
-                            <a href="https://tinytask.net/download.html" target="_blank">
-                                <img src="./assets/window.png" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="websites-grid" id="3-0"></div>
         </div>
         <!-- 精选网址 -->
         <div class="subcategory">
             <h3>精选网址</h3>
-            <div class="websites-grid">
-                <!-- MDN -->
-                <div class="website">
-                    <img src="https://developer.mozilla.org/favicon-192x192.png" alt="MDN">
-                    <div class="website-info">
-                        <h4><a href="https://developer.mozilla.org/zh-CN/" target="_blank">MDN Web Docs</a></h4>
-                        <p>一个开放的、由Mozilla维护的Web开发者资源库。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- CSS Inspiration -->
-                <div class="website">
-                    <img src="https://csscoco.com/inspiration/images/logo2.png" alt="CSS Inspiration">
-                    <div class="website-info">
-                        <h4><a href="https://csscoco.com/inspiration/#/" target="_blank">CSS Inspiration</a></h4>
-                        <p>这里可以让你寻找到使用或者是学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- CSS可视化 -->
-                <div class="website">
-                    <img src="https://css.bqrdh.com/favicon.ico" alt="CSS可视化">
-                    <div class="website-info">
-                        <h4><a href="https://css.bqrdh.com/box-style-editor" target="_blank">CSS可视化</a></h4>
-                        <p>提供了CSS边框、文字、图片、背景等常见的生成器，CSS动画效果，CSS色彩，字体预览等常用工具。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- 菜鸟教程 -->
-                <div class="website">
-                    <img src="./assets/rookie_tutorial.png" alt="MDN">
-                    <div class="website-info">
-                        <h4><a href="https://www.runoob.com/" target="_blank">菜鸟教程</a></h4>
-                        <p>软件开发工程师必备的参考教程和手册,涵盖了HTML、CSS、JavaScript、NodeJS、SQL、Python、PHP、Bootstrap、Java等。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- W3CSchool -->
-                <div class="website">
-                    <img src="./assets/w3c_school.png" alt="MDN">
-                    <div class="website-info">
-                        <h4><a href="https://www.w3cschool.cn/" target="_blank">W3CSchool</a></h4>
-                        <p>在w3school，你可以找到你所需要的所有的网站建设教程。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- 宝藏星球屋 -->
-                <div class="website">
-                    <img src="https://bzxqw.top//wp-content/uploads/2024/03/2024030919225699.png" alt="宝藏星球屋">
-                    <div class="website-info">
-                        <h4><a href="https://bzxqw.top/" target="_blank">宝藏星球屋</a></h4>
-                        <p>集网络众多资源于一体的免费宝藏网站。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-
-                <!-- 知识·树洞 -->
-                <div class="website">
-                    <img src="./favicon.png" alt="知识·树洞">
-                    <div class="website-info">
-                        <h4><a href="https://link3.cc/quruanpu" target="_blank">知识·树洞</a></h4>
-                        <p>集网络众多资源于一体的免费宝藏网站。</p>
-                        <div class="external-links"></div>
-                    </div>
-                </div>
-            </div>
+            <div class="websites-grid" id="3-1"></div>
         </div>
     </div>
 </div>
+
+<script>
+    fetch('./datum.json')
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+
+        data.navigationBar.forEach(item => {
+            let a = document.createElement("a");
+            a.setAttribute("href", "#" + item.href);
+            a.textContent = item.name;
+
+            let li = document.createElement("li");
+            li.append(a);
+
+            document.getElementById("navigation_bar").append(li);
+        });
+
+        data.datum.forEach(item => createItem(item));
+    }).catch(error => {
+        console.error('Error fetching file:', error);
+    })
+
+    function createItem(info) {
+        // 创建<div class="website">
+        let websiteDiv = document.createElement('div');
+        websiteDiv.className = 'website';
+
+        // 创建<img src="./assets/html.png" alt="HTML 5">
+        let img = document.createElement('img');
+        img.src = info.icon;
+
+        // 创建<div class="website-info">
+        let websiteInfoDiv = document.createElement('div');
+        websiteInfoDiv.className = 'website-info';
+
+        // 创建<h4><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" target="_blank">HTML 5</a></h4>
+        let h4 = document.createElement('h4');
+        let link = document.createElement('a');
+        link.href = info.website;
+        link.target = '_blank';
+        link.textContent = info.title;
+        h4.appendChild(link);
+
+        // 创建<p>
+        let p = document.createElement('p');
+        p.title = info.description;
+        p.textContent = info.description;
+
+        // 创建<div class="external-links">
+        let externalLinksDiv = document.createElement('div');
+        externalLinksDiv.className = 'external-links';
+
+        info.links.forEach(item => {
+            let link1 = document.createElement('a');
+            link1.href = item.href;
+            link1.target = '_blank';
+            let img1 = document.createElement('img');
+            img1.src = item.icon;
+            link1.appendChild(img1);
+
+            externalLinksDiv.appendChild(link1);
+        });
+
+        // 将<h4>、<p>和<div class="external-links">添加到<div class="website-info">
+        websiteInfoDiv.appendChild(h4);
+        websiteInfoDiv.appendChild(p);
+        websiteInfoDiv.appendChild(externalLinksDiv);
+
+        // 将<img>和<div class="website-info">添加到<div class="website">
+        websiteDiv.appendChild(img);
+        websiteDiv.appendChild(websiteInfoDiv);
+
+        // 将<div class="website">添加到body或其他指定的父元素
+        document.getElementById(info.id).appendChild(websiteDiv);
+    }
+</script>
 </body>
 </html>

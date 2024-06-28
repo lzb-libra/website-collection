@@ -167,7 +167,7 @@ header p {
 
 .external-links a {
     display: inline-block;
-    margin-right: 0.1rem;
+    margin-right: 5px;
 }
 
 .external-links img {
