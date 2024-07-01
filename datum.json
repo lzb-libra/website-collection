@@ -181,8 +181,7 @@
             "icon": "./assets/svelte.svg",
             "website": "https://svelte.dev/",
             "description": "Svelte是一个现代前端框架，它允许开发者编写Web应用程序，并且与React和Vue等其他流行的前端框架相比，它具有一些独特的特点。Svelte的核心理念是将应用程序编译成高效的JavaScript，而不是在浏览器中进行虚拟DOM的比较和DOM操作，从而提高性能。",
-            "links":
-            [
+            "links": [
                 {
                     "icon": "./assets/w3c_school.png",
                     "href": "https://www.w3cschool.cn/yzwdb/"
@@ -191,12 +190,27 @@
         },
         {
             "id": "0-1",
+            "title": "Nuxt.js",
+            "icon": "./assets/nuxt.svg",
+            "website": "https://www.nuxtjs.cn/",
+            "description": "一个基于 Vue 的服务端渲染应用框架，可以用来创建简单的静态站点或者更复杂的应用。它允许使用 Vue.js 开发服务端渲染的应用，也可以用来进行静态站生成。",
+            "links": []
+        },
+        {
+            "id": "0-1",
+            "title": "Next.js",
+            "icon": "https://nextjs.frontendx.cn/static/favicon/favicon.ico",
+            "website": "https://nextjs.frontendx.cn/",
+            "description": "Next.js是一个React框架，它允许你使用React框架建立超强的、有利于SEO的、极度面向用户的静态网站和网络应用。它具有混合静态和服务器渲染、TypeScript支持、智能捆绑、路由预取等功能，无需额外配置。",
+            "links": []
+        },
+        {
+            "id": "0-1",
             "title": "Hippy",
             "icon": "https://hippyjs.org/_media/hippy-logo.png",
             "website": "https://hippyjs.org/",
             "description": "Hippy 是一个高性能的跨平台开发框架，它允许开发者使用JavaScript、HTML和CSS来开发移动应用和小程序。",
-            "links":
-            []
+            "links": []
         },
         {
             "id": "0-1",
@@ -267,6 +281,38 @@
                     "href": "https://www.w3cschool.cn/evilg/"
                 }
             ]
+        },
+        {
+            "id": "0-2",
+            "title": "Axios.js",
+            "icon": "./assets/axios.svg",
+            "website": "http://www.axios-js.com/",
+            "description": "Axios是一个基于Promise的HTTP客户端，用于浏览器和node.js环境。",
+            "links": []
+        },
+        {
+            "id": "0-2",
+            "title": "Mock.js",
+            "icon": "./assets/mock.svg",
+            "website": "http://mockjs.com/",
+            "description": "生成随机数据，拦截 Ajax 请求。",
+            "links": []
+        },
+        {
+            "id": "0-2",
+            "title": "Vue I18n",
+            "icon": "https://vue-i18n.intlify.dev/vue-i18n-logo.svg",
+            "website": "https://vue-i18n.intlify.dev/",
+            "description": "Vue I18n 是 Vue.js 的国际化插件。它可以轻松地将一些本地化功能集成到您的Vue.js应用程序中。",
+            "links": []
+        },
+        {
+            "id": "0-2",
+            "title": "React-i18next",
+            "icon": "./assets/react-i18next.png",
+            "website": "https://react.i18next.com/",
+            "description": "React-i18next是基于i18next的一款强大的国际化框架，可以用于react和react-native应用。",
+            "links": []
         },
         {
             "id": "0-2",
