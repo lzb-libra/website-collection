@@ -1,160 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Collection</title>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<nav class="navbar">
-    <div class="navbar-container">
-        <a href="#" class="brand">Website Collection</a>
-        <div style="display: flex; align-items: center">
-            <ul class="nav-links" id="navigation_bar"></ul>
-            <a href="https://github.com/lzb-libra/website-collection" target="_blank" style="display: flex; align-items: center">
-                <img src="./assets/github.svg" style="width: 25px; height: 25px; margin-left: 40px;" alt="">
-            </a>
-        </div>
-    </div>
-</nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Website Collection</title>
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="navbar-container">
+				<a href="#" class="brand">Website Collection</a>
+				<div style="display: flex; align-items: center">
+					<ul class="nav-links" id="navigation_bar"></ul>
+					<a href="https://github.com/lzb-libra/website-collection" target="_blank" style="display: flex; align-items: center">
+						<img src="./assets/github.svg" style="width: 25px; height: 25px; margin-left: 40px" alt="" />
+					</a>
+				</div>
+			</div>
+		</nav>
 
-<div class="container">
-    <header>
-        <h1>Website Collection</h1>
-        <p>Organize your favorite websites by category and subcategory</p>
-    </header>
+		<div class="container">
+			<header>
+				<h1>Website Collection</h1>
+				<p>Organize your favorite websites by category and subcategory</p>
+			</header>
 
-    <div id="FRONT" class="category">
-        <h2>前端</h2>
-        <!-- 编程语言 -->
-        <div class="subcategory">
-            <h3>基础语言</h3>
-            <div class="websites-grid" id="0-0"></div>
-        </div>
-        <!-- 编程框架 -->
-        <div class="subcategory">
-            <h3>编程框架</h3>
-            <div class="websites-grid" id="0-1"></div>
-        </div>
-        <!-- 工具插件 -->
-        <div class="subcategory">
-            <h3>工具插件</h3>
-            <div class="websites-grid" id="0-2"></div>
-        </div>
-        <!-- UI组件 -->
-        <div class="subcategory">
-            <h3>UI组件</h3>
-            <div class="websites-grid" id="0-3"></div>
-        </div>
-        <!-- 字体图标 -->
-        <div class="subcategory">
-            <h3>字体图标</h3>
-            <div class="websites-grid" id="0-4"></div>
-        </div>
-    </div>
-    <div id="BACK" class="category">
-        <h2>后端</h2>
-        <div class="subcategory">
-            <h3>编程语言</h3>
-            <div class="websites-grid" id="1-0"></div>
-        </div>
-    </div>
-    <div id="DEVOPS" class="category">
-        <h2>运维</h2>
-        <div class="websites-grid" id="2-0"></div>
-    </div>
-    <div id="RESOURCE" class="category">
-        <h2>资源</h2>
-        <!-- 精选应用 -->
-        <div class="subcategory">
-            <h3>精选应用</h3>
-            <div class="websites-grid" id="3-0"></div>
-        </div>
-        <!-- 精选网址 -->
-        <div class="subcategory">
-            <h3>精选网址</h3>
-            <div class="websites-grid" id="3-1"></div>
-        </div>
-    </div>
-</div>
+			<div id="FRONT" class="category">
+				<h2>前端</h2>
+				<!-- 编程语言 -->
+				<div class="subcategory">
+					<h3>基础语言</h3>
+					<div class="websites-grid" id="0-0"></div>
+				</div>
+				<!-- 编程框架 -->
+				<div class="subcategory">
+					<h3>编程框架</h3>
+					<div class="websites-grid" id="0-1"></div>
+				</div>
+				<!-- 工具插件 -->
+				<div class="subcategory">
+					<h3>工具插件</h3>
+					<div class="websites-grid" id="0-2"></div>
+				</div>
+				<!-- UI组件 -->
+				<div class="subcategory">
+					<h3>UI组件</h3>
+					<div class="websites-grid" id="0-3"></div>
+				</div>
+				<!-- 字体图标 -->
+				<div class="subcategory">
+					<h3>字体图标</h3>
+					<div class="websites-grid" id="0-4"></div>
+				</div>
+			</div>
+			<div id="BACK" class="category">
+				<h2>后端</h2>
+				<div class="subcategory">
+					<h3>编程语言</h3>
+					<div class="websites-grid" id="1-0"></div>
+				</div>
+			</div>
+			<div id="DEVOPS" class="category">
+				<h2>运维</h2>
+				<div class="websites-grid" id="2-0"></div>
+			</div>
+			<div id="RESOURCE" class="category">
+				<h2>资源</h2>
+				<!-- 优质项目 -->
+				<div class="subcategory">
+					<h3>优质项目</h3>
+					<div class="websites-grid" id="3-2"></div>
+				</div>
+				<!-- 精选应用 -->
+				<div class="subcategory">
+					<h3>精选应用</h3>
+					<div class="websites-grid" id="3-0"></div>
+				</div>
+				<!-- 精选网址 -->
+				<div class="subcategory">
+					<h3>精选网址</h3>
+					<div class="websites-grid" id="3-1"></div>
+				</div>
+			</div>
+		</div>
 
-<script>
-    fetch('./datum.json')
-    .then(res => res.json())
-    .then(data => {
-        console.log(data);
+		<script>
+			fetch("./datum.json")
+				.then(res => res.json())
+				.then(data => {
+					console.log(data);
 
-        data.navigationBar.forEach(item => {
-            let a = document.createElement("a");
-            a.setAttribute("href", "#" + item.href);
-            a.textContent = item.name;
+					data.navigationBar.forEach(item => {
+						let a = document.createElement("a");
+						a.setAttribute("href", "#" + item.href);
+						a.textContent = item.name;
 
-            let li = document.createElement("li");
-            li.append(a);
+						let li = document.createElement("li");
+						li.append(a);
 
-            document.getElementById("navigation_bar").append(li);
-        });
+						document.getElementById("navigation_bar").append(li);
+					});
 
-        data.datum.forEach(item => createItem(item));
-    }).catch(error => {
-        console.error('Error fetching file:', error);
-    })
+					data.datum.forEach(item => createItem(item));
+				})
+				.catch(error => {
+					console.error("Error fetching file:", error);
+				});
 
-    function createItem(info) {
-        // 创建<div class="website">
-        let websiteDiv = document.createElement('div');
-        websiteDiv.className = 'website';
+			function createItem(info) {
+				// 创建<div class="website">
+				let websiteDiv = document.createElement("div");
+				websiteDiv.className = "website";
 
-        // 创建<img src="./assets/html.png" alt="HTML 5">
-        let img = document.createElement('img');
-        img.src = info.icon;
+				// 创建<img src="./assets/html.png" alt="HTML 5">
+				let img = document.createElement("img");
+				img.src = info.icon;
 
-        // 创建<div class="website-info">
-        let websiteInfoDiv = document.createElement('div');
-        websiteInfoDiv.className = 'website-info';
+				// 创建<div class="website-info">
+				let websiteInfoDiv = document.createElement("div");
+				websiteInfoDiv.className = "website-info";
 
-        // 创建<h4><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" target="_blank">HTML 5</a></h4>
-        let h4 = document.createElement('h4');
-        let link = document.createElement('a');
-        link.href = info.website;
-        link.target = '_blank';
-        link.textContent = info.title;
-        h4.appendChild(link);
+				// 创建<h4><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" target="_blank">HTML 5</a></h4>
+				let h4 = document.createElement("h4");
+				let link = document.createElement("a");
+				link.href = info.website;
+				link.target = "_blank";
+				link.textContent = info.title;
+				h4.appendChild(link);
 
-        // 创建<p>
-        let p = document.createElement('p');
-        p.title = info.description;
-        p.textContent = info.description;
+				// 创建<p>
+				let p = document.createElement("p");
+				p.title = info.description;
+				p.textContent = info.description;
 
-        // 创建<div class="external-links">
-        let externalLinksDiv = document.createElement('div');
-        externalLinksDiv.className = 'external-links';
+				// 创建<div class="external-links">
+				let externalLinksDiv = document.createElement("div");
+				externalLinksDiv.className = "external-links";
 
-        info.links.forEach(item => {
-            let link1 = document.createElement('a');
-            link1.href = item.href;
-            link1.target = '_blank';
-            let img1 = document.createElement('img');
-            img1.src = item.icon;
-            link1.appendChild(img1);
+				info.links.forEach(item => {
+					let link1 = document.createElement("a");
+					link1.href = item.href;
+					link1.target = "_blank";
+					let img1 = document.createElement("img");
+					img1.src = item.icon;
+					link1.appendChild(img1);
 
-            externalLinksDiv.appendChild(link1);
-        });
+					externalLinksDiv.appendChild(link1);
+				});
 
-        // 将<h4>、<p>和<div class="external-links">添加到<div class="website-info">
-        websiteInfoDiv.appendChild(h4);
-        websiteInfoDiv.appendChild(p);
-        websiteInfoDiv.appendChild(externalLinksDiv);
+				// 将<h4>、<p>和<div class="external-links">添加到<div class="website-info">
+				websiteInfoDiv.appendChild(h4);
+				websiteInfoDiv.appendChild(p);
+				websiteInfoDiv.appendChild(externalLinksDiv);
 
-        // 将<img>和<div class="website-info">添加到<div class="website">
-        websiteDiv.appendChild(img);
-        websiteDiv.appendChild(websiteInfoDiv);
+				// 将<img>和<div class="website-info">添加到<div class="website">
+				websiteDiv.appendChild(img);
+				websiteDiv.appendChild(websiteInfoDiv);
 
-        // 将<div class="website">添加到body或其他指定的父元素
-        document.getElementById(info.id).appendChild(websiteDiv);
-    }
-</script>
-</body>
+				// 将<div class="website">添加到body或其他指定的父元素
+				document.getElementById(info.id).appendChild(websiteDiv);
+			}
+		</script>
+	</body>
 </html>
