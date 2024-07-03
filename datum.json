@@ -1036,8 +1036,25 @@
 			"title": "Soybean Admin",
 			"icon": "https://docs.soybeanjs.cn/logo.svg",
 			"website": "https://docs.soybeanjs.cn/zh/",
-			"description": " 一个清新优雅、高颜值且功能强大的后台管理模板，基于最新的前端技术栈，包括 Vue3, Vite5, TypeScript, Pinia, NaiveUI 和 UnoCSS。",
+			"description": "一个清新优雅、高颜值且功能强大的后台管理模板，基于最新的前端技术栈，包括 Vue3, Vite5, TypeScript, Pinia, NaiveUI 和 UnoCSS。",
 			"links": []
+		},
+		{
+			"id": "3-2",
+			"title": "NVM",
+			"icon": "./assets/nvm.svg",
+			"website": "https://zhuanlan.zhihu.com/p/704917255",
+			"description": "nvm(Node.js version manager) 是一个命令行应用，可以协助您快速地 更新、安装、使用、卸载 本机的全局 node.js 版本。",
+			"links": [
+				{
+					"icon": "./assets/apple.svg",
+					"href": "https://github.com/nvm-sh/nvm"
+				},
+				{
+					"icon": "./assets/window.png",
+					"href": "https://github.com/coreybutler/nvm-windows"
+				}
+			]
 		}
 	]
 }
