@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="250"
+   height="250"
+   viewBox="0 0 250 250"
+   version="1.1"
+   id="svg26"
+   sodipodi:docname="Product_banner_Lite.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview26"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.78797"
+     inkscape:cx="214.7687"
+     inkscape:cy="162.47476"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Content" />
+  <title
+     id="title1">Product_banners/Product_banner_Lite</title>
+  <defs
+     id="defs15">
+    <linearGradient
+       x1="0"
+       y1="0.4999963"
+       x2="1"
+       y2="0.5000037"
+       id="linearGradient-1">
+      <stop
+         stop-color="#DBBB42"
+         offset="0%"
+         id="stop1" />
+      <stop
+         stop-color="#F8D957"
+         offset="37.7731643%"
+         id="stop2" />
+      <stop
+         stop-color="#FFE36C"
+         offset="50.2431163%"
+         id="stop3" />
+      <stop
+         stop-color="#F5CC52"
+         offset="66.6876093%"
+         id="stop4" />
+      <stop
+         stop-color="#C89225"
+         offset="100%"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       x1="1284.4941"
+       y1="79.274345"
+       x2="1490.1105"
+       y2="277.68558"
+       id="linearGradient-2"
+       gradientTransform="scale(1.0089574,0.99112212)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#DBBB42"
+         offset="0%"
+         id="stop6" />
+      <stop
+         stop-color="#F8D957"
+         offset="37.7731643%"
+         id="stop7" />
+      <stop
+         stop-color="#FFE36C"
+         offset="50.2431163%"
+         id="stop8" />
+      <stop
+         stop-color="#F5CC52"
+         offset="66.6876093%"
+         id="stop9" />
+      <stop
+         stop-color="#C89225"
+         offset="100%"
+         id="stop10" />
+    </linearGradient>
+    <path
+       d="m 1387.7855,140.46686 c 2.665,-0.263 4.669,-2.471 4.752,-5.082 l -10e-4,-0.176 c -0.037,-9.297 -0.971,-18.634 -2.788,-27.829 l -0.757,-3.834 c -1.467,-7.418998 -8.685,-12.259998 -16.089,-10.790998 -0.522,0.104 -1.04,0.237 -1.539,0.398 -17.339,6.029 -32.026,17.218998 -42.515,32.374998 -10.441,15.085 -15.756,32.693 -15.379,50.931 l 0.086,1.144 c 0.095,0.656 0.308,1.272 0.634,1.836 2.42,4.174 1.002,9.525 -3.165,11.949 -4.168,2.424 -9.508,1.004 -11.927,-3.171 -1.553,-2.681 -2.526,-5.609 -2.891,-8.703 -0.015,-0.123 -0.026,-0.248 -0.036,-0.372 l -0.12,-1.605 c -0.012,-0.151 -0.019,-0.301 -0.022,-0.452 -0.512,-22.039 5.878,-43.313 18.479,-61.521 12.63,-18.247998 30.33,-31.716998 51.186,-38.947998 0.05,-0.017 0.146,-0.05 0.196,-0.066 1.178,-0.385 2.397,-0.704 3.623,-0.947 8.161,-1.617 16.461,0.044 23.373,4.68 6.912,4.636 11.609,11.691 13.224,19.866998 l 0.758,3.834 c 2.414,12.218 3.437,24.669 3.038,37.006 0,0.118 -0.011,0.235 -0.019,0.352 l -0.013,0.183 c -0.399,8.528 -7.055,15.565 -15.56,16.408 -0.368,0.036 -0.742,0.061 -1.112,0.074 -0.211,0.006 -0.421,0.006 -0.632,-0.002 l -0.145,-0.006 c -1.41,-0.052 -2.846,-0.069 -4.265,-0.051 l -3.318,0.306 c -0.164,0.015 -0.328,0.026 -0.493,0.032 -24.153,0.852 -44.215,18.897 -47.705,42.904 -1.582,10.884 0.365,21.716 5.631,31.326 5.099,9.306 13.162,16.89 22.703,21.352 l 2.655,1.229 c 6.286,2.517 12.902,4.294 19.669,5.281 26.929,3.929 53.511,-4.792 72.944,-23.929 l 0.912,-0.943 c 3.905,-4.09 6.426,-9.274 7.252,-14.955 0.825,-5.677 -0.114,-11.364 -2.715,-16.447 l -0.187,-0.366 c -9.029,-16.942 -23.582,-30.546 -40.989,-38.312 -0.087,-0.04 -0.174,-0.08 -0.26,-0.122 l -0.429,-0.209 c -5.45,-2.65 -9.06,-7.837 -9.654,-13.874 -0.158,-1.589 -0.095,-3.187 0.184,-4.751 0.02,-0.113 0.042,-0.225 0.067,-0.337 l 0.056,-0.259 c 3.882,-17.799 10.692,-34.74 20.24,-50.342998 0.024,-0.04 0.048,-0.08 0.074,-0.12 l 0.26,-0.411 c 2.52,-4.03 6.632,-6.87 11.289,-7.793 4.479,-0.891 9.039,0.006 12.85,2.519 l 0.226,0.142 c 0.134,0.085 0.264,0.173 0.393,0.265 21.69,15.439998 36.482,38.350998 41.652,64.510998 1.569,7.94 2.216,16.034 1.923,24.056 l -0.01,0.282 c -0.01,0.165 -0.017,0.33 -0.032,0.494 -0.382,4.007 -1.833,7.853 -4.198,11.125 -2.827,3.91 -8.282,4.784 -12.185,1.953 -3.904,-2.832 -4.776,-8.297 -1.95,-12.208 0.504,-0.697 0.827,-1.504 0.938,-2.343 0.239,-6.641 -0.301,-13.363 -1.605,-19.963 -3.894,-19.701 -14.347,-37.186 -29.68,-49.848 l -0.119,-0.094 c -1.034,-0.816 -2.37,-1.247 -3.783,-1.108 -1.766,0.176 -3.243,1.205 -4.061,2.64 l -0.085,0.137 c -6.265,11.226 -10.991,23.162 -14.097,35.603 l -0.02,0.135 c -0.09,0.481 -0.114,0.982 -0.064,1.492 0.181,1.824 1.265,3.338 2.765,4.142 0.051,0.027 0.101,0.053 0.152,0.078 l 0.101,0.046 c 19.258,9.578 35.307,25.179 45.482,44.31 0.022,0.041 0.044,0.082 0.066,0.123 l 0.219,0.431 c 4.265,8.333 5.806,17.651 4.455,26.944 -1.352,9.298 -5.484,17.792 -11.949,24.561 l -1.022,1.058 c -0.048,0.049 -0.096,0.097 -0.144,0.145 -11.17,11.025 -24.906,19.501 -39.723,24.514 -10.713,3.624 -21.723,5.442 -32.88,5.442 -5.033,0 -10.094,-0.369 -15.174,-1.11 -8.209,-1.198 -16.239,-3.366 -23.868,-6.443 -0.134,-0.054 -0.267,-0.112 -0.398,-0.172 l -2.891,-1.338 c -12.908,-6.038 -23.782,-16.26 -30.653,-28.798 -7.107,-12.97 -9.735,-27.583 -7.602,-42.259 4.693,-32.29 31.632,-56.58 64.104,-57.85 l 3.416,-0.314 c 0.218,-0.02 0.436,-0.032 0.655,-0.036 z"
+       id="path-3" />
+    <filter
+       x="-0.011568602"
+       y="-0.011776779"
+       width="1.0231372"
+       height="1.0235536"
+       filterUnits="objectBoundingBox"
+       id="filter-4">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset10" />
+      <feGaussianBlur
+         stdDeviation="1"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur10" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         id="feColorMatrix10" />
+    </filter>
+    <path
+       d="M 59.559,81.559 H 21.929 C 9.869,81.559 0,71.682 0,59.611 V 21.948 C 0,9.876 9.869,0 21.929,0 h 37.63 c 12.062,0 21.93,9.876 21.93,21.948 v 37.663 c 0,12.071 -9.868,21.948 -21.93,21.948"
+       id="path-5" />
+    <filter
+       x="-0.014725914"
+       y="-0.014713275"
+       width="1.0294518"
+       height="1.0294266"
+       filterUnits="objectBoundingBox"
+       id="filter-6">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset11" />
+      <feGaussianBlur
+         stdDeviation="0.5"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur11" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         id="feColorMatrix11" />
+    </filter>
+    <linearGradient
+       x1="38.066635"
+       y1="12.701211"
+       x2="61.136505"
+       y2="57.578823"
+       id="linearGradient-7"
+       gradientTransform="scale(0.84674738,1.1809898)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#DBBB42"
+         offset="0%"
+         id="stop11" />
+      <stop
+         stop-color="#F8D957"
+         offset="37.7731643%"
+         id="stop12" />
+      <stop
+         stop-color="#FFE36C"
+         offset="50.2431163%"
+         id="stop13" />
+      <stop
+         stop-color="#F5CC52"
+         offset="66.6876093%"
+         id="stop14" />
+      <stop
+         stop-color="#C89225"
+         offset="100%"
+         id="stop15" />
+    </linearGradient>
+  </defs>
+  <g
+     id="Pruduct-pages-banners"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="Content">
+      <g
+         id="g24"
+         transform="matrix(1.1400038,0,0,1.1069041,-1470.9533,-69.990087)">
+        <use
+           fill="#000000"
+           fill-opacity="1"
+           filter="url(#filter-4)"
+           xlink:href="#path-3"
+           id="use23" />
+        <use
+           fill="url(#linearGradient-2)"
+           fill-rule="evenodd"
+           xlink:href="#path-3"
+           id="use24"
+           style="fill:url(#linearGradient-2)" />
+      </g>
+      <g
+         id="L"
+         transform="matrix(1.1400038,0,0,1.1069041,150.13226,148.07003)">
+        <g
+           id="Fill-1">
+          <use
+             fill="#000000"
+             fill-opacity="1"
+             filter="url(#filter-6)"
+             xlink:href="#path-5"
+             id="use25" />
+          <use
+             fill="#ffffff"
+             fill-rule="evenodd"
+             xlink:href="#path-5"
+             id="use26" />
+        </g>
+        <path
+           d="m 58.914634,57.783615 c 0.566396,0 1.055556,0.201905 1.46748,0.605714 C 60.794038,58.793139 61,59.272663 61,59.8279 v 6.127814 c 0,0.555238 -0.205962,1.034762 -0.617886,1.438572 C 59.97019,67.798095 59.48103,68 58.914634,68 H 25.085366 C 24.51897,68 24.02981,67.798095 23.617886,67.394286 23.205962,66.990476 23,66.510952 23,65.955714 V 17.044286 c 0,-0.555238 0.205962,-1.034762 0.617886,-1.438572 C 24.02981,15.201905 24.51897,15 25.085366,15 h 6.232966 c 0.566395,0 1.055555,0.201905 1.467479,0.605714 0.411925,0.40381 0.617887,0.883334 0.617887,1.438572 v 40.739329 z"
+           id="path26"
+           fill="url(#linearGradient-7)"
+           style="fill:url(#linearGradient-7)" />
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata26">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Product_banners/Product_banner_Lite</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

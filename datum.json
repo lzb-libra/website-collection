@@ -11,6 +11,11 @@
 			"name": "后端"
 		},
 		{
+			"id": "4",
+			"href": "tools",
+			"name": "工具"
+		},
+		{
 			"id": "2",
 			"href": "dev-ops",
 			"name": "运维"
@@ -267,6 +272,14 @@
 					"href": "https://www.w3cschool.cn/evilg/"
 				}
 			]
+		},
+		{
+			"id": "0-1",
+			"title": "Vue Mini",
+			"icon": "https://vuemini.org/logo.png",
+			"website": "https://vuemini.org/",
+			"description": "基于 Vue 3 的小程序框架。简单，强大，高性能。助你准时下班的小程序框架。",
+			"links": []
 		},
 		{
 			"id": "0-2",
@@ -700,6 +713,78 @@
 			"links": []
 		},
 		{
+			"id": "0-4",
+			"title": "Remix Icon",
+			"icon": "./assets/remix-icon.svg",
+			"website": "https://remixicon.cn/",
+			"description": "为设计人员和开发人员精心制作的开源中性风格系统符号。所有图标均免费用于个人和商业用途。",
+			"links": []
+		},
+		{
+			"id": "0-4",
+			"title": "Tabler Icons",
+			"icon": "./assets/tabler-icons.svg",
+			"website": "https://tabler.io/icons",
+			"description": "Tabler 完全响应并兼容所有现代浏览器。由于其现代且用户友好的设计，您可以创建一个用户会喜欢的功能齐全的界面！选择您需要的布局和组件并对其进行自定义，以使您的设计保持一致且引人注目。每个组件都经过精心设计，注重细节，让您的界面美观。",
+			"links": []
+		},
+		{
+			"id": "0-4",
+			"title": "IcoMoon",
+			"icon": "./assets/icon-moon.svg",
+			"website": "https://icomoon.io/",
+			"description": "IcoMoon 是一个图标解决方案，提供三种主要服务：矢量图标包、IcoMoon 应用程序以及将图标托管为 SVG 或字体。",
+			"links": []
+		},
+		{
+			"id": "0-4",
+			"title": "Easy Icon",
+			"icon": "https://www.easyicon.cc/static/easyicon/img/panda-logo.jpg",
+			"website": "https://www.easyicon.cc/",
+			"description": "EasyIcon拥有丰富的图标库，涵盖了各种主题和风格，如动物、植物、交通工具、人物等。",
+			"links": []
+		},
+		{
+			"id": "0-4",
+			"title": "寻图·标",
+			"icon": "https://icon.52112.com/assets/images/favicon.ico",
+			"website": "https://icon.52112.com/",
+			"description": "更多图标，更多风格，更多选择，你想要的都在这里！",
+			"links": []
+		},
+		{
+			"id": "0-5",
+			"title": "pīnyīn",
+			"icon": "./assets/pinyin.png",
+			"website": "https://github.com/hotoo/pinyin",
+			"description": "您可以将汉字更改为拼音。您可以显示、排序和搜索汉字的发音。",
+			"links": []
+		},
+		{
+			"id": "0-5",
+			"title": "Vue Json Pretty",
+			"icon": "./assets/vue-json-pretty.svg",
+			"website": "https://github.com/leezng/vue-json-pretty?tab=readme-ov-file",
+			"description": "一个 Vue 组件，用于将 JSON 数据呈现为树结构。",
+			"links": []
+		},
+		{
+			"id": "0-5",
+			"title": "Vue Web Terminal",
+			"icon": "./assets/vue-web-terminal.svg",
+			"website": "https://tzfun.github.io/vue-web-terminal/",
+			"description": "一个轻量、功能强大、拓展性高的命令式网页仿真终端插件。",
+			"links": []
+		},
+		{
+			"id": "0-5",
+			"title": "Vxe Table",
+			"icon": "https://vxetable.cn/logo.png",
+			"website": "https://vxetable.cn/#/start/install",
+			"description": "一个基于 Vue（支持 Vue3） 的 PC 端全功能表格组件，满足你对 table 绝大多数需求，可与任意组件库完美兼容。",
+			"links": []
+		},
+		{
 			"id": "1-0",
 			"title": "C",
 			"icon": "./assets/c_language_1.png",
@@ -746,14 +831,6 @@
 		},
 		{
 			"id": "1-0",
-			"title": "Python",
-			"icon": "./assets/python.svg",
-			"website": "https://www.python.org/",
-			"description": "用于Web开发、数据科学、人工智能、自动化脚本等。特点是语法简洁、易读易写、丰富的库、多范式支持。",
-			"links": []
-		},
-		{
-			"id": "1-0",
 			"title": "Golang",
 			"icon": "./assets/golang.svg",
 			"website": "https://go.dev/",
@@ -762,10 +839,26 @@
 		},
 		{
 			"id": "1-0",
-			"title": "Ruby",
-			"icon": "./assets/ruby.svg",
-			"website": "https://www.ruby-lang.org/zh_cn/",
-			"description": "用于Web开发。特点是简洁优雅、面向对象、动态类型、广泛用于快速开发Web应用（如Ruby on Rails）。",
+			"title": "Rust",
+			"icon": "./assets/rust.png",
+			"website": "https://www.rust-lang.org/",
+			"description": "用于系统编程、嵌入式系统、WebAssembly。特点是内存安全、并发支持、性能高、无垃圾回收。",
+			"links": []
+		},
+		{
+			"id": "1-0",
+			"title": "Python",
+			"icon": "./assets/python.svg",
+			"website": "https://www.python.org/",
+			"description": "用于Web开发、数据科学、人工智能、自动化脚本等。特点是语法简洁、易读易写、丰富的库、多范式支持。",
+			"links": []
+		},
+		{
+			"id": "1-0",
+			"title": "HarmonyOS",
+			"icon": "./assets/huawei.svg",
+			"website": "https://developer.huawei.com/consumer/cn/",
+			"description": "华为鸿蒙系统是一款全新的面向全场景的分布式操作系统，创造一个超级虚拟终端互联的世界，将人、设备、场景有机地联系在一起，将消费者在全场景生活中接触的多种智能终端，实现极速发现、极速连接、硬件互助、资源共享，用合适的设备提供场景体验。",
 			"links": []
 		},
 		{
@@ -782,14 +875,6 @@
 			"icon": "./assets/kotlin.svg",
 			"website": "https://kotlinlang.org/",
 			"description": "用于跨平台移动应用开发（主要与Flutter框架一起使用）、Web开发。特点是快速开发、即时编译、强类型。",
-			"links": []
-		},
-		{
-			"id": "1-0",
-			"title": "Rust",
-			"icon": "./assets/rust.png",
-			"website": "https://www.rust-lang.org/",
-			"description": "用于系统编程、嵌入式系统、WebAssembly。特点是内存安全、并发支持、性能高、无垃圾回收。",
 			"links": []
 		},
 		{
@@ -1024,6 +1109,14 @@
 			"links": []
 		},
 		{
+			"id": "3-1",
+			"title": "UI Lib Picker",
+			"icon": "./assets/ui-lib-picker.svg",
+			"website": "https://ui-libs.vercel.app/",
+			"description": "选择合适的UI库很难！有很多事情需要考虑。此项目是一个简单的工具，用于概述不同的 UI 框架，并帮助您选择正确的框架。",
+			"links": []
+		},
+		{
 			"id": "3-2",
 			"title": "JustAuth",
 			"icon": "https://www.justauth.cn/logo.png",
@@ -1055,6 +1148,30 @@
 					"href": "https://github.com/coreybutler/nvm-windows"
 				}
 			]
+		},
+		{
+			"id": "3-2",
+			"title": "SDKMAN",
+			"icon": "./assets/sdk-man.svg",
+			"website": "https://sdkman.io/",
+			"description": "软件开发工具包管理器。",
+			"links": []
+		},
+		{
+			"id": "4-0",
+			"title": "Navicat Premuim Lite",
+			"icon": "./assets/navicat-premium-lite.svg",
+			"website": "https://www.navicat.com.cn/products/navicat-premium-lite",
+			"description": "Navicat Premium Lite 是 Navicat 的精简版，它包含了用户执行主要的基本数据库操作所需的核心功能。它允许你同时连接到各种数据库平台，包括 MySQL、PostgreSQL、SQL Server、Oracle、MariaDB，以及 Redis 和 MongoDB 等NoSQL 数据库，所有这些操作都可以通过一个应用程序来完成。",
+			"links": []
+		},
+		{
+			"id": "4-0",
+			"title": "DBeaver",
+			"icon": "https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png",
+			"website": "https://dbeaver.io/",
+			"description": "DBeaver 是一个免费的跨平台数据库工具，适用于开发人员、数据库管理员、分析师和所有处理数据的人。它支持所有流行的 SQL 数据库，如 MySQL、MariaDB、PostgreSQL、SQLite、Apache Family 等。",
+			"links": []
 		}
 	]
 }
