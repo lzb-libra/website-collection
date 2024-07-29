@@ -94,14 +94,29 @@
 			"description": "TypeScript是由微软开发的一个开源编程语言，它是JavaScript的一个超集，意味着任何有效的JavaScript代码也是有效的TypeScript代码。TypeScript的主要特点是引入了类型系统，这使得开发者可以在编译时进行类型检查，从而更容易地发现错误。",
 			"links": [
 				{
+					"title": "菜鸟教程",
 					"icon": "./assets/rookie_tutorial.png",
 					"href": "https://www.runoob.com/typescript/ts-tutorial.html"
 				},
 				{
+					"title": "w3cschool",
 					"icon": "./assets/w3c_school.png",
 					"href": "https://www.w3cschool.cn/typescript/"
+				},
+				{
+					"title": "TypeScript 中文手册",
+					"icon": "./assets/typescript.svg",
+					"href": "https://typescript.bootcss.com/"
 				}
 			]
+		},
+		{
+			"id": "0-0",
+			"title": "ES6 入门教程",
+			"icon": "./assets/es6.svg",
+			"website": "https://es6.ruanyifeng.com/",
+			"description": "一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。",
+			"links": []
 		},
 		{
 			"id": "0-1",
@@ -646,7 +661,7 @@
 			"icon": "./assets/font-awesome.svg",
 			"website": "https://fontawesome.com/",
 			"description": "Font Awesome 是互联网的图标库和工具包，被数百万设计师、开发人员和内容创建者使用。",
-			"links": []
+			"links": [{ "title": "Font Awesome中文网", "icon": "https://fontawesome.com.cn/favicon.ico", "href": "https://fontawesome.com.cn/" }]
 		},
 		{
 			"id": "0-4",
@@ -1106,6 +1121,14 @@
 			"icon": "./assets/w3c_school.png",
 			"website": "https://www.w3cschool.cn/",
 			"description": "在w3school，你可以找到你所需要的所有的网站建设教程。",
+			"links": []
+		},
+		{
+			"id": "3-1",
+			"title": "易百教程",
+			"icon": "https://www.yiibai.com/favicon.ico",
+			"website": "https://www.yiibai.com/",
+			"description": "一个提供各种IT相关教程和实例的网站，涵盖了编程语言，数据库，Web开发，人工智能，数据可视化等领域。",
 			"links": []
 		},
 		{

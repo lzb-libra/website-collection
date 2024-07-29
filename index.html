@@ -159,6 +159,7 @@
 					link1.target = "_blank";
 					let img1 = document.createElement("img");
 					img1.src = item.icon;
+					if (item.title != null) img1.title = item.title;
 					link1.appendChild(img1);
 
 					externalLinksDiv.appendChild(link1);
