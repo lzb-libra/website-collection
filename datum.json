@@ -416,7 +416,7 @@
 		{
 			"id": "0-2",
 			"title": "Sass",
-			"icon": "https://www.sass.hk/favicon.ico",
+			"icon": "https://sass.nodejs.cn/assets/img/logos/logo.svg",
 			"website": "https://www.sass.hk/",
 			"description": "Sass是一种预处理器语言，用于CSS扩展，它增加了变量、嵌套规则、混合（mixins）、函数等特性，使得编写CSS更加高效和有组织。Sass文件通常以`.scss`作为文件扩展名，并且需要编译成CSS以供浏览器使用。",
 			"links": []
@@ -1116,14 +1116,6 @@
 		},
 		{
 			"id": "3-1",
-			"title": "宝藏星球屋",
-			"icon": "./assets/baozang.png",
-			"website": "https://bzxqw.top/",
-			"description": "集网络众多资源于一体的免费宝藏网站。",
-			"links": []
-		},
-		{
-			"id": "3-1",
 			"title": "知识·树洞",
 			"icon": "./favicon.png",
 			"website": "https://link3.cc/quruanpu",
@@ -1168,6 +1160,19 @@
 				{
 					"icon": "./assets/window.png",
 					"href": "https://github.com/coreybutler/nvm-windows"
+				}
+			]
+		},
+		{
+			"id": "3-2",
+			"title": "JVMS",
+			"icon": "./assets/jvms.svg",
+			"website": "https://github.com/ystyle/jvms",
+			"description": "一个专为 Windows 用户设计的 JDK 版本管理工具，能够轻松地安装、切换和管理多个 JDK 版本。",
+			"links": [
+				{
+					"icon": "./assets/window.png",
+					"href": "https://github.com/ystyle/jvms"
 				}
 			]
 		},
