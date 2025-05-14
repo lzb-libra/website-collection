@@ -471,7 +471,7 @@
 			"id": "0-3",
 			"title": "Vant",
 			"icon": "./assets/vant.png",
-			"website": "https://www.naiveui.com/zh-CN/os-theme",
+			"website": "https://develop365.gitlab.io/vant/zh-CN/home/",
 			"description": "Vant 是一个轻量、可靠的移动端Vue组件库，由有赞团队维护。它提供了一系列预设计的UI组件，使得开发者能够快速构建Vue驱动的移动端应用。Vant特别注重移动端的体验，适合用于微信小程序、移动端网站以及其他移动应用的开发。",
 			"links": [
 				{
@@ -499,7 +499,7 @@
 		{
 			"id": "0-3",
 			"title": "Vuetify",
-			"icon": "./assets/vuetify.png",
+			"icon": "https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-dark-atom.svg",
 			"website": "https://vuetifyjs.com/zh-Hans/",
 			"description": "Vuetify是一个基于Vue.js的开源组件库，它遵循Google的Material Design设计语言。Vuetify提供了一套丰富的预制Vue组件，这些组件易于使用，并且可以轻松地集成到Vue.js应用程序中。",
 			"links": [
@@ -510,23 +510,6 @@
 				{
 					"icon": "./assets/vue_3.png",
 					"href": "https://vuetifyjs.com/zh-Hans/getting-started/installation/"
-				}
-			]
-		},
-		{
-			"id": "0-3",
-			"title": "Quasar",
-			"icon": "./assets/quasar.svg",
-			"website": "https://quasar.dev/",
-			"description": "Quasar 是一个基于 Vue.js 的 UI 框架，它提供了丰富的组件库和工具，帮助开发者快速构建现代化的 Web 应用程序。",
-			"links": [
-				{
-					"icon": "./assets/vue_2.png",
-					"href": "https://v1.quasar.dev/"
-				},
-				{
-					"icon": "./assets/vue_3.png",
-					"href": "https://quasar.dev/"
 				}
 			]
 		},
