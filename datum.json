@@ -563,7 +563,7 @@
 			"id": "0-3",
 			"title": "Element UI",
 			"icon": "./assets/element-ui.svg",
-			"website": "https://zh-hans.react.dev/",
+			"website": "https://element-plus.org/zh-CN/#/zh-CN",
 			"description": "Element UI 是一个基于 Vue.js 的 UI 组件库，专注于提供丰富、易用和美观的用户界面组件。",
 			"links": [
 				{
@@ -895,7 +895,7 @@
 			"id": "2-0",
 			"title": "Linux",
 			"icon": "./assets/linux.svg",
-			"website": "",
+			"website": "https://www.runoob.com/linux/linux-tutorial.html",
 			"description": "常用Linux命令指南。",
 			"links": [
 				{
@@ -984,31 +984,6 @@
 		},
 		{
 			"id": "3-0",
-			"title": "MusicFree",
-			"icon": "https://musicfree.upup.fun/favicon.ico",
-			"website": "https://musicfree.upup.fun/",
-			"description": "HTML的全称为超文本标记语言，是一种标记语言。",
-			"links": [
-				{
-					"icon": "./assets/android.svg",
-					"href": "https://github.com/maotoumao/MusicFree/releases"
-				},
-				{
-					"icon": "./assets/window.png",
-					"href": "https://github.com/maotoumao/MusicFreeDesktop/releases"
-				},
-				{
-					"icon": "./assets/mac.png",
-					"href": "https://github.com/maotoumao/MusicFreeDesktop/releases"
-				},
-				{
-					"icon": "./assets/linux.svg",
-					"href": "https://github.com/maotoumao/MusicFreeDesktop/releases"
-				}
-			]
-		},
-		{
-			"id": "3-0",
 			"title": "Listen1",
 			"icon": "./favicon.png",
 			"website": "https://listen1.github.io/listen1/",
@@ -1036,7 +1011,7 @@
 			"id": "3-0",
 			"title": "PotPlayer",
 			"icon": "https://globalpotplayer.cn/favicon.ico",
-			"website": "https://globalpotplayer.com/",
+			"website": "https://potplayer.daum.net/",
 			"description": "全能视频播放器。",
 			"links": [
 				{
@@ -1104,14 +1079,6 @@
 			"icon": "./assets/w3c_school.png",
 			"website": "https://www.w3cschool.cn/",
 			"description": "在w3school，你可以找到你所需要的所有的网站建设教程。",
-			"links": []
-		},
-		{
-			"id": "3-1",
-			"title": "易百教程",
-			"icon": "https://www.yiibai.com/favicon.ico",
-			"website": "https://www.yiibai.com/",
-			"description": "一个提供各种IT相关教程和实例的网站，涵盖了编程语言，数据库，Web开发，人工智能，数据可视化等领域。",
 			"links": []
 		},
 		{
@@ -1198,6 +1165,14 @@
 			"icon": "https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png",
 			"website": "https://dbeaver.io/",
 			"description": "DBeaver 是一个免费的跨平台数据库工具，适用于开发人员、数据库管理员、分析师和所有处理数据的人。它支持所有流行的 SQL 数据库，如 MySQL、MariaDB、PostgreSQL、SQLite、Apache Family 等。",
+			"links": []
+		},
+		{
+			"id": "4-0",
+			"title": "XShell",
+			"icon": "https://www.xshell.com/wp-content/uploads/2018/11/ci-netsarang_header-1-1.svg",
+			"website": "https://www.xshell.com/zh/",
+			"description": "Xshell 是一款 Windows 平台的强大终端模拟器，常用于连接 Linux 服务器、网络设备等，支持SSH1、SSH2、Telnet、Rlogin、SFTP、Serial 串口连接",
 			"links": []
 		}
 	]
