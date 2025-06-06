@@ -639,6 +639,19 @@
 			]
 		},
 		{
+			"id": "0-3",
+			"title": "Vue DevUI",
+			"icon": "https://vue-devui.github.io/assets/logo.svg",
+			"website": "https://vue-devui.github.io/quick-start/",
+			"description": "Vue DevUI 是一个基于 Vue3 和 DevUI Design 的 UI 组件库，旨在为开发者提供高质量、简洁易用且灵活的组件。它支持 TypeScript、Nuxt3、按需加载、国际化、主题定制等功能，内置了多种美观的主题。",
+			"links": [
+				{
+					"icon": "./assets/vue_3.png",
+					"href": "https://vue-devui.github.io/quick-start/"
+				}
+			]
+		},
+		{
 			"id": "0-4",
 			"title": "Font Awesome",
 			"icon": "./assets/font-awesome.svg",
