@@ -1112,6 +1112,14 @@
 		},
 		{
 			"id": "3-2",
+			"title": "RuoYi",
+			"icon": "https://ruoyi.vip/images/ruoyi.png",
+			"website": "https://ruoyi.vip/",
+			"description": "基于SpringBoot的权限管理系统。",
+			"links": []
+		},
+		{
+			"id": "3-2",
 			"title": "JustAuth",
 			"icon": "https://www.justauth.cn/logo.png",
 			"website": "https://www.justauth.cn/",
