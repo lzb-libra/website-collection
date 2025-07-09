@@ -1112,6 +1112,14 @@
 		},
 		{
 			"id": "3-2",
+			"title": "EasyCaptcha",
+			"icon": "./assets/default-website.svg",
+			"website": "https://github.com/ele-admin/EasyCaptcha",
+			"description": "Java图形验证码，支持gif、中文、算术等类型，可用于Java Web、JavaSE等项目。",
+			"links": []
+		},
+		{
+			"id": "3-2",
 			"title": "RuoYi",
 			"icon": "https://ruoyi.vip/images/ruoyi.png",
 			"website": "https://ruoyi.vip/",
